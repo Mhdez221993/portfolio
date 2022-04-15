@@ -135,7 +135,7 @@
   display: flex;
   height: 280px;
   min-width: 406px;
-  padding: 22px 0px 25px 0px;
+  padding: 22px 0px 25px 25px;
 }
 
 .huziio {
@@ -389,7 +389,6 @@
   letter-spacing: 0;
   line-height: 21.1px;
   min-height: 48px;
-  width: 185px;
 }
 
 .overlap-group5 {
@@ -408,7 +407,6 @@
   letter-spacing: 0;
   line-height: 21.1px;
   min-height: 28px;
-  width: 95px;
 }
 
 .my-portfolio {
@@ -779,7 +777,6 @@
   letter-spacing: 0;
   line-height: 21.1px;
   min-height: 28px;
-  width: 115px;
 }
 
 .overlap-group7 {
@@ -798,7 +795,6 @@
   letter-spacing: 0;
   line-height: 21.1px;
   min-height: 28px;
-  width: 146px;
 }
 
 .group-38 {
