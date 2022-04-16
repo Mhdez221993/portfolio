@@ -1,5 +1,37 @@
-*{
+html {
   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,500|Poppins:400,700,500,600,800");
+
+:root {
+  --black-2:rgba(0, 0, 0, 0.071);
+  --black:rgba(0, 0, 0, 1);
+  --royal-blue:rgba(67, 86, 251, 1);
+  --scarpa-flow:rgba(78, 83, 96, 1);
+  --scarpa-flow-2:rgba(79, 84, 97, 1);
+  --storm-gray:rgba(115, 120, 133, 1);
+  --manatee:rgba(145, 149, 158, 1);
+  --periwinkle:rgba(196, 202, 253, 1);
+  --mystic:rgba(230, 232, 240, 1);
+  --zircon:rgba(245, 248, 252, 1);
+  --white:rgba(255, 255, 255, 1);
+
+  --font-size-s: 14px;
+  --font-size-m: 16px;
+  --font-size-l: 20px;
+  --font-size-xl: 22px;
+  --font-size-xxl: 28px;
+  --font-size-xxxl: 88px;
+
+  --font-family-poppins: "Poppins";
+  --font-family-roboto: "Roboto";
 }
 
 body {
