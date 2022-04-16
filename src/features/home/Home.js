@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import Details from "./Details";
 import './HomeDesktop.css';
 import facebook from './icons/facebook.svg';
 import footershape from './icons/footershape.svg';
@@ -20,9 +21,16 @@ function App() {
 export default App;
 
 function Template7Main() {
+  const [ditail, setDisplayDitails] = useState(false);
+  const displayDitail = () => {
+    setDisplayDitails(true);
+  }
+
   return (
 
     <div class="template-7-main screen">
+      {ditail && <Details />}
+
       <div class="overlap-group-container-1" id="intro">
         <div class="cp"></div>
         <div class="intro-portfolio-about-contact">
@@ -96,7 +104,7 @@ function Template7Main() {
                 <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
               </div>
               <div class="overlap-group-2">
-                <button type="button" class="see-the-project">See the project</button>
+                <button onClick={displayDitail} type="button" class="see-the-project">See the project</button>
               </div>
             </div>
 
@@ -108,13 +116,10 @@ function Template7Main() {
                 <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
               </div>
               <div class="overlap-group-2">
-                <button type="button" class="see-the-project">See the project</button>
+                <button onClick={displayDitail} type="button" class="see-the-project">See the project</button>
               </div>
             </div>
-
           </div>
-
-
 
           <div class="group-38" id="about">
             <div class="about-me roboto-bold-scarpa-flow-28px">About me</div>
