@@ -1,5 +1,5 @@
 import React from "react";
-import './Home.css';
+import './HomeDesktop.css';
 import Shape1 from './icons/Shape-1.svg';
 import Shape from './icons/Shape.svg';
 import Subtract1 from './icons/Subtract-1.svg';
