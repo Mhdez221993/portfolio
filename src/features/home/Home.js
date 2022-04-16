@@ -89,13 +89,13 @@ function Template7Main() {
           </div>
         </div>
         <div class="group-38">
-          <div class="about-meroboto-bold-scarpa-flow-28px">About me</div>
-          <p class="in-three-sentences-droboto-normal-storm-gray-16px">
+          <div class="about-me roboto-bold-scarpa-flow-28px">About me</div>
+          <p class="in-three-sentences-d roboto-normal-storm-gray-16px">
             In three sentences describe who you are as a proffessional. Look through some of my work and experience! If you like what you see
             and have project <br />you need coded, don’t hesistate to contact me.
           </p>
           <div class="overlap-group-3">
-            <div class="get-my-resumeroboto-bold-white-16px">Get my resume</div>
+            <div class="get-my-resume roboto-bold-white-16px">Get my resume</div>
           </div>
         </div>
         <div class="group-container-1">
