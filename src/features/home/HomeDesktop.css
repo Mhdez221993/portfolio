@@ -921,4 +921,21 @@
     font-size: var(--font-size-l);
     letter-spacing: 1px;
   }
+
+  .overlap-group13 {
+    padding: 0;
+  }
+
+  .group-13 {
+    width: 100%;
+    padding: 0 40px;
+  }
+
+  .overlap-group-container-4 {
+    width: 100%;
+  }
+
+  .input-wrapper {
+    max-width: 100%;
+  }
 }
