@@ -1,6 +1,5 @@
 import React from "react";
 import './Home.css';
-import footershape from './icons/footershape.svg';
 import Shape1 from './icons/Shape-1.svg';
 import Shape from './icons/Shape.svg';
 import Subtract1 from './icons/Subtract-1.svg';
@@ -48,8 +47,10 @@ function Template7Main() {
             </div>
           </div>
         </div>
+
         <div className="content-wrapper">
           <div class="my-portfolio roboto-bold-scarpa-flow-28px">My Portfolio</div>
+
           <div class="overlap-group-container-3">
             <div class="overlap-group1">
               <div class="huziio poppins-semi-bold-white-20px">Huzi.io</div>
@@ -74,6 +75,7 @@ function Template7Main() {
               </div>
             </div>
           </div>
+
           <div class="overlap-group-container">
             <div class="overlap-group4">
               <div class="traviso poppins-semi-bold-white-20px">Traviso</div>
@@ -82,6 +84,7 @@ function Template7Main() {
               <div class="carsell poppins-semi-bold-white-20px">Carsell</div>
             </div>
           </div>
+
           <div class="overlap-group-container">
             <div class="overlap-group6">
               <div class="audition poppins-semi-bold-white-20px">Audition</div>
@@ -90,6 +93,7 @@ function Template7Main() {
               <div class="weather-app poppins-semi-bold-white-20px">WeatherApp</div>
             </div>
           </div>
+
           <div class="group-38">
             <div class="about-me roboto-bold-scarpa-flow-28px">About me</div>
             <p class="in-three-sentences-d roboto-normal-storm-gray-16px">
@@ -127,55 +131,56 @@ function Template7Main() {
             </div>
           </div>
 
-          <div class="overlap-group13">
-            <img className="footer-shape" src={footershape} />
-            <div class="group-13">
-              <div class="interested-in-collaborating roboto-bold-scarpa-flow-28px">Interested in collaborating?</div>
-              <p class="if-you-have-an-appli poppins-normal-storm-gray-16px">
-                If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love
-                to help you with it.
-              </p>
-              <div class="overlap-group-container-4">
-                <div class="overlap-group-4">
-                  <div class="yeremias poppins-normal-storm-gray-16px">Yeremias</div>
-                </div>
-                <div class="overlap-group2-1border-1px-black-2">
-                  <div class="emailvalign-text-middle roboto-normal-manatee-16px">Email*</div>
-                </div>
+        </div>
+
+        <div class="overlap-group13">
+          <div class="group-13">
+            <div class="interested-in-collaborating roboto-bold-scarpa-flow-28px">Interested in collaborating?</div>
+            <p class="if-you-have-an-appli poppins-normal-storm-gray-16px">
+              If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love
+              to help you with it.
+            </p>
+            <div class="overlap-group-container-4">
+              <div class="overlap-group-4">
+                <div class="yeremias poppins-normal-storm-gray-16px">Yeremias</div>
               </div>
-              <div class="overlap-group3-1border-1px-black-2">
-                <div class="messagevalign-text-middle roboto-normal-manatee-16px">Message*</div>
+              <div class="overlap-group2-1border-1px-black-2">
+                <div class="emailvalign-text-middle roboto-normal-manatee-16px">Email*</div>
               </div>
-              <div class="group-container-2">
-                <div class="overlap-group1-2">
-                  <div class="get-in-touchroboto-bold-white-16px">Get in touch</div>
-                </div>
-                <div class="group-36">
-                  <div class="group-15">
-                    <a href="mailto:cg@gmailjob.com" target="_blank" class="align-self-flex-end"
-                    ><div class="cggmailjobcomroboto-normal-periwinkle-16px">cg@gmailjob.com</div></a
-                    >
-                    <div class="flex-row">
-                      <img alt="Damy data" class="github" src="github.png" /><img alt="Damy data" class="twitter" src="twitter.png" /><img alt="Damy data"
-                        class="linked-in"
-                        src="linkedin.png"
-                      />
-                      <div class="group-31"></div>
-                      <div class="group"></div>
-                      <div class="group-32"></div>
-                      <img alt="Damy data" class="flex-row-item" src="facebook.png" /><img alt="Damy data"
-                        class="flex-row-item"
-                        src="instagram.png"
-                      />
-                    </div>
+            </div>
+            <div class="overlap-group3-1border-1px-black-2">
+              <div class="messagevalign-text-middle roboto-normal-manatee-16px">Message*</div>
+            </div>
+            <div class="group-container-2">
+              <div class="overlap-group1-2">
+                <div class="get-in-touchroboto-bold-white-16px">Get in touch</div>
+              </div>
+              <div class="group-36">
+                <div class="group-15">
+                  <a href="mailto:cg@gmailjob.com" target="_blank" class="align-self-flex-end"
+                  ><div class="cggmailjobcomroboto-normal-periwinkle-16px">cg@gmailjob.com</div></a
+                  >
+                  <div class="flex-row">
+                    <img class="github" src="github.png" /><img class="twitter" src="twitter.png" /><img
+                      class="linked-in"
+                      src="linkedin.png"
+                    />
+                    <div class="group-31"></div>
+                    <div class="group"></div>
+                    <div class="group-32"></div>
+                    <img class="flex-row-item" src="facebook.png" /><img
+                      class="flex-row-item"
+                      src="instagram.png"
+                    />
                   </div>
-                  <img alt="Damy data" class="vector-4" src="vector-4.svg" />
-                  <div class="copyright roboto-normal-periwinkle-16px">© 2020&nbsp;&nbsp;Microverse</div>
                 </div>
+                {/* <img class="vector-4" src="vector-4.svg" /> */}
+                <div class="copyright roboto-normal-periwinkle-16px">© 2020&nbsp;&nbsp;Microverse</div>
               </div>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   );
