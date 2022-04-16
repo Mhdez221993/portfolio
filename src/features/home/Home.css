@@ -269,22 +269,20 @@
 }
 
 .overlap-group-container-2 {
-  /* align-items: flex-start; */
+  align-items: flex-end;
   background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62599356bd3456045c671682/releases/6259936b670b0b62486d7351/img/header-shape@1x.svg);
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   min-height: 685px;
-  padding:  0px 16px 138.5px 16px;
+  padding-right: 90px;
   width: 1139px;
-  /* background-color: red;  */
 }
 
 .intro-container {
   text-align: left;
-  max-width: 800px;
-  margin: 0 auto;
-  padding-top: 100px;
+  max-width: 850px;
+  padding: 100px 0 0 0;
 }
 
 .overlap-group15 {
