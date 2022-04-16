@@ -906,4 +906,19 @@
     padding: 20px 20px;
     display: flex;
   }
+
+  .content-wrapper {
+    padding: 40px 30px;
+    text-align: left;
+  }
+
+  .about-me {
+    letter-spacing: 1px;
+    line-height: 29.5px;
+  }
+
+  .in-three-sentences-d {
+    font-size: var(--font-size-l);
+    letter-spacing: 1px;
+  }
 }
