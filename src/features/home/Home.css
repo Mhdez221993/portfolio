@@ -83,6 +83,7 @@
 
 .flex-col {
   max-width: 1139px;
+  background-color: #fdf9f9;
 }
 
 .overlap-group-container-3 {
@@ -234,20 +235,16 @@
 }
 
 .overlap-group-container-2 {
-  align-items: flex-end;
   background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62599356bd3456045c671682/releases/6259936b670b0b62486d7351/img/header-shape@1x.svg);
   background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-  /* min-height: 685px; */
-  /* padding-right: 90px; */
-  /* width: 1139px; */
+  min-height: 685px;
 }
 
 .intro-container {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 90px 0 210px;
   text-align: left;
-  max-width: 850px;
-  /* padding: 100px 0 0 0; */
 }
 
 .overlap-group15 {
@@ -264,13 +261,8 @@
   font-family: var(--font-family-roboto);
   font-size: var(--font-size-xxl);
   font-weight: 700;
-  /* left: 2px; */
   letter-spacing: 0;
   line-height: 29.5px;
-  position: absolute;
-  /* top: 91px; */
-  /* white-space: nowrap; */
-  /* width: 531px; */
 }
 
 .title {
@@ -292,14 +284,8 @@
   font-family: var(--font-family-roboto);
   font-size: var(--font-size-m);
   font-weight: 400;
-  /* left: 74px; */
   letter-spacing: 0;
-  /* line-height: 22px; */
-  position: absolute;
-  top: 0;
-  /* width: 436px; */
-  /* margin: 0 0 0 215px; */
-  text-align: left;
+  line-height: 22px;
 }
 
 .my-work-on-social-network {
@@ -308,17 +294,17 @@
   font-family: var(--font-family-roboto);
   font-size: var(--font-size-m);
   font-weight: 400;
-  /* padding: 1px 20px; */
+  padding: 1px 20px;
   border-radius: 30px;
   display: flex;
 }
 
 .my-work-p {
-  /* margin-right: auto; */
+  margin-right: auto;
 }
 
 .union {
-  /* margin-left: 20px; */
+  margin-left: 20px;
 }
 
 .group-14 {

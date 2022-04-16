@@ -30,9 +30,9 @@ function Template7Main() {
       <div class="flex-col">
         <div class="overlap-group-container-2">
           <div className="intro-container">
-            <h1 class="title">Moises Hernandez</h1>
+            <h1 className="title">Moises Hernandez</h1>
             <div class="software-developer">Software Engineer</div>
-            <p class="hello-i-am-a-softwar">
+            <p className="hello-i-am-a-softwar">
               Hello I am a software developer! I can help you build a product, featre or website. Look through some of my work and experience!
               If you like what you see and have project you need coded, don’t hesistate to contact me.
             </p>
