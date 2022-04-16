@@ -80,7 +80,7 @@ function Template7Main() {
 
 
 
-          {/* <div class="group-38">
+          <div class="group-38">
             <div class="about-me roboto-bold-scarpa-flow-28px">About me</div>
             <p class="in-three-sentences-d roboto-normal-storm-gray-16px">
               In three sentences describe who you are as a proffessional. Look through some of my work and experience! If you like what you see
@@ -91,7 +91,7 @@ function Template7Main() {
             </div>
           </div>
 
-          <div class="group-container-1">
+          {/* <div class="group-container-1">
             <div class="group-37">
               <div class="languages roboto-bold-scarpa-flow-22px">Languages</div>
               <div class="languages roboto-normal-storm-gray-16px">JavaScript (ES5/ES6)</div>
