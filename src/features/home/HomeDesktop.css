@@ -347,6 +347,7 @@
   .content-wrapper {
     padding-left: 210px;
     text-align: left;
+    padding-right: 50px;
   }
 
   .my-portfolio {
