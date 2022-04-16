@@ -853,8 +853,57 @@
   color: var(--royal-blue);
 }
 
+.mobile-heder {
+  display: none;
+}
+
 @media only screen and (max-width: 601px) {
   .overlap-group-container-1 {
     display: none;
+  }
+
+  .overlap-group-container-2 {
+    background-image: url(https://raw.githubusercontent.com/Mhdez221993/portfolio/d40b8d9952614b514f205bdfd45e39b6d38b6733/src/features/home/icons/headerbackground-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    text-align: left;
+  }
+
+  .mobile-heder {
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+
+  .cp {
+    margin: 0;
+  }
+
+  .span1 {
+    margin-left: 40px;
+    color: var(--white);
+    font-family: var(--font-family-sora);
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 54.2px;
+  }
+
+  .hello-i-am-a-softwar {
+    font-size: var(--font-size-xl);
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+  }
+
+  .my-work-on-social-network {
+    padding: 20px 20px;
+    display: flex;
   }
 }

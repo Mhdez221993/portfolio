@@ -36,6 +36,14 @@ function Template7Main() {
       <div class="flex-col">
         <div class="overlap-group-container-2">
           <div className="intro-container">
+
+            <div class="mobile-heder">
+              <div class="cp ">Mhdez</div>
+              <span class="span1">Portfolio</span>
+              <span class="span1">About</span>
+              <span class="span1">Contact</span>
+            </div>
+
             <h1 className="title">Moises Hernandez</h1>
             <div class="software-developer">Software Engineer</div>
             <p className="hello-i-am-a-softwar">
