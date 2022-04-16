@@ -152,7 +152,7 @@ function Template7Main() {
               <div class="overlap-group1-2">
                 <div class="get-in-touch roboto-bold-white-16px">Get in touch</div>
                 <a href="mailto:cg@gmailjob.com" target="_blank" class="align-self-flex-end"
-                ><div class="cggmailjobcom roboto-normal-periwinkle-16px">cg@gmailjob.com</div></a
+                ><div class="cggmailjobcom roboto-normal-periwinkle-16px">mhdezcoronado@gmail.com</div></a
                 >
               </div>
             </form>
