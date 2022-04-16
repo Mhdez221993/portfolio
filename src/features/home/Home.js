@@ -70,7 +70,6 @@ function Template7Main() {
                 <div class="see-the-project">See the project</div>
               </div>
             </div>
-            <img alt="Damy data" class="mask-group" src="mask-group.svg" />
           </div>
         </div>
         <div class="overlap-group-container">

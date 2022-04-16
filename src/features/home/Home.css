@@ -230,7 +230,6 @@
   letter-spacing: 0;
   min-height: 21px;
   text-align: center;
-  width: 92px;
 }
 
 .overlap-group2 {
@@ -737,8 +736,7 @@
   align-items: flex-start;
   background-color: var(--white);
   border-radius: 14px;
-  box-shadow: 0px 7px 15px
-#5e67b921;
+  box-shadow: 0px 7px 15px;
   display: flex;
   height: 185px;
   margin-top: 21px;
