@@ -1,9 +1,14 @@
 import React from "react";
 import './HomeDesktop.css';
+import facebook from './icons/facebook.svg';
+import github from './icons/github.svg';
+import group31 from './icons/group31.svg';
+import group32 from './icons/group32.svg';
 import Shape1 from './icons/Shape-1.svg';
 import Shape from './icons/Shape.svg';
 import Subtract1 from './icons/Subtract-1.svg';
 import Subtract2 from './icons/Subtract-2.svg';
+import twitter from './icons/twitter.svg';
 import Union1 from './icons/Union-1.svg';
 import Union from './icons/Union.svg';
 
@@ -56,7 +61,7 @@ function Template7Main() {
               <div class="soap-soap poppins-semi-bold-white-20px">SoapSoap</div>
               <div class="group-9">
                 <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
-                <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
+                <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby</div>
                 <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
               </div>
               <div class="overlap-group-2">
@@ -68,7 +73,7 @@ function Template7Main() {
               <div class="soap-soap poppins-semi-bold-white-20px">SoapSoap</div>
               <div class="group-9">
                 <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
-                <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
+                <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby</div>
                 <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
               </div>
               <div class="overlap-group-2">
@@ -121,52 +126,49 @@ function Template7Main() {
 
         <div class="overlap-group13">
           <div class="group-13">
-            <div class="interested-in-collaborating roboto-bold-scarpa-flow-28px">Interested in collaborating?</div>
-            <p class="if-you-have-an-appli poppins-normal-storm-gray-16px">
-              If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love
-              to help you with it.
-            </p>
-            <div class="overlap-group-container-4">
-              <div class="overlap-group-4">
-                <div class="yeremias poppins-normal-storm-gray-16px">Yeremias</div>
-              </div>
-              <div class="overlap-group2-1border-1px-black-2">
-                <div class="emailvalign-text-middle roboto-normal-manatee-16px">Email*</div>
-              </div>
+
+            <div className="interested">
+              <div class="interested-in-collaborating roboto-bold-scarpa-flow-28px">Interested in collaborating?</div>
+
+              <p class="if-you-have-an-appli poppins-normal-storm-gray-16px">
+                If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love
+                to help you with it.
+              </p>
             </div>
-            <div class="overlap-group3-1border-1px-black-2">
-              <div class="messagevalign-text-middle roboto-normal-manatee-16px">Message*</div>
-            </div>
-            <div class="group-container-2">
-              <div class="overlap-group1-2">
-                <div class="get-in-touchroboto-bold-white-16px">Get in touch</div>
-              </div>
-              <div class="group-36">
-                <div class="group-15">
-                  <a href="mailto:cg@gmailjob.com" target="_blank" class="align-self-flex-end"
-                  ><div class="cggmailjobcomroboto-normal-periwinkle-16px">cg@gmailjob.com</div></a
-                  >
-                  <div class="flex-row">
-                    <img class="github" src="github.png" /><img class="twitter" src="twitter.png" /><img
-                      class="linked-in"
-                      src="linkedin.png"
-                    />
-                    <div class="group-31"></div>
-                    <div class="group"></div>
-                    <div class="group-32"></div>
-                    <img class="flex-row-item" src="facebook.png" /><img
-                      class="flex-row-item"
-                      src="instagram.png"
-                    />
-                  </div>
+
+            <form class="overlap-group-container-4">
+              <div className="input-wrapper">
+                <div class="inputs">
+                  <input class="overlap-group-4 poppins-normal-storm-gray-16px" placeholder="Name*" />
+                  <input class="overlap-group-4 poppins-normal-storm-gray-16px" placeholder="Email*" />
                 </div>
-                {/* <img class="vector-4" src="vector-4.svg" /> */}
-                <div class="copyright roboto-normal-periwinkle-16px">© 2020&nbsp;&nbsp;Microverse</div>
+
+                <div class="overlap-group3-1border-1px-black-2">
+                  <textarea class="message roboto-normal-manatee-16px">Message*</textarea>
+                </div>
               </div>
+
+              <div class="overlap-group1-2">
+                <div class="get-in-touch roboto-bold-white-16px">Get in touch</div>
+                <a href="mailto:cg@gmailjob.com" target="_blank" class="align-self-flex-end"
+                ><div class="cggmailjobcom roboto-normal-periwinkle-16px">cg@gmailjob.com</div></a
+                >
+              </div>
+            </form>
+
+            <div className="social-media-footer">
+              <img src={github} className="union" alt="union" />
+              <img src={twitter} className="union" alt="union" />
+              <img src={group32} className="union" alt="union" />
+              <img src={group31} className="union" alt="union" />
+              <img src={facebook} className="union" alt="union" />
             </div>
+
+            <div className="vector"></div>
+
+            <div class="copyright roboto-normal-periwinkle-16px">© 2022&nbsp;&nbsp;Moises Hernandez</div>
           </div>
         </div>
-
       </div>
     </div>
   );
