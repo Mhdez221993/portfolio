@@ -23,13 +23,13 @@ function Template7Main() {
   return (
 
     <div class="template-7-main screen">
-      <div class="overlap-group-container-1">
+      <div class="overlap-group-container-1" id="intro">
         <div class="cp"></div>
         <div class="intro-portfolio-about-contact">
-          <span class="span1">Intro</span>
-          <span class="span1">Portfolio</span>
-          <span class="span1">About</span>
-          <span class="span1">Contact</span>
+          <a className="span1" href="#intro">Intro</a>
+          <a className="span1" href="#portfolio">Portfolio</a>
+          <a className="span1" href="#about">About</a>
+          <a className="span1" href="#footer">Contact</a>
         </div>
       </div>
 
@@ -39,31 +39,53 @@ function Template7Main() {
 
             <div class="mobile-heder">
               <div class="cp "></div>
-              <span class="span1">Portfolio</span>
-              <span class="span1">About</span>
-              <span class="span1">Contact</span>
+              <a className="span1" href="#portfolio">Portfolio</a>
+              <a className="span1" href="#about">About</a>
+              <a className="span1" href="#footer">Contact</a>
             </div>
 
             <h1 className="title">Moises Hernandez</h1>
+
             <div class="software-developer">Software Engineer</div>
+
             <p className="hello-i-am-a-softwar">
               Hello I am a software developer! I can help you build a product, featre or website. Look through some of my work and experience!
               If you like what you see and have project you need coded, don’t hesistate to contact me.
             </p>
+
             <div className="my-work-on-social-network">
               <p className="my-work-p">My work on socail networks</p>
-              <img src={Union} className="union" alt="union" />
-              <img src={Union1} className="union" alt="union" />
-              <img src={Shape} className="union" alt="union" />
-              <img src={Shape1} className="union" alt="union" />
-              <img src={Subtract1} className="union" alt="union" />
-              <img src={Subtract2} className="union" alt="union" />
+
+              <a href="https://github.com/Mhdez221993" target="_blank">
+                <img src={Union} className="union" alt="union" />
+              </a>
+
+              <a href="https://stackoverflow.com/users/14582840/moises-hernandez" target="_blank" without rel="noreferrer">
+                <img src={Union1} className="union" alt="union" />
+              </a>
+
+              <a href="https://www.linkedin.com/in/moises-hdez-coronado/" target="_blank" without rel="noreferrer">
+                <img src={Shape} className="union" alt="union" />
+              </a>
+
+              <a href="https://twitter.com/MoisesH42060050" target="_blank" without rel="noreferrer">
+                <img src={Shape1} className="union" alt="union" />
+              </a>
+
+              <a href="https://www.facebook.com/moises.hernandezcoronado" target="_blank" without rel="noreferrer">
+                <img src={Subtract1} className="union" alt="union" />
+              </a>
+
+              <a href="https://angel.co/u/moises-hernandez-7" target="_blank" without rel="noreferrer">
+                <img src={Subtract2} className="union" alt="union" />
+              </a>
+
             </div>
           </div>
         </div>
 
         <div className="content-wrapper">
-          <div class="my-portfolio roboto-bold-scarpa-flow-28px">My Portfolio</div>
+          <div class="my-portfolio roboto-bold-scarpa-flow-28px" id="portfolio">My Portfolio</div>
 
           <div class="overlap-group-container-3">
             <div class="overlap-group3">
@@ -74,7 +96,7 @@ function Template7Main() {
                 <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
               </div>
               <div class="overlap-group-2">
-                <div class="see-the-project">See the project</div>
+                <button type="button" class="see-the-project">See the project</button>
               </div>
             </div>
 
@@ -86,7 +108,7 @@ function Template7Main() {
                 <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
               </div>
               <div class="overlap-group-2">
-                <div class="see-the-project">See the project</div>
+                <button type="button" class="see-the-project">See the project</button>
               </div>
             </div>
 
@@ -94,14 +116,14 @@ function Template7Main() {
 
 
 
-          <div class="group-38">
+          <div class="group-38" id="about">
             <div class="about-me roboto-bold-scarpa-flow-28px">About me</div>
             <p class="in-three-sentences-d roboto-normal-storm-gray-16px">
               In three sentences describe who you are as a proffessional. Look through some of my work and experience! If you like what you see
               and have project <br />you need coded, don’t hesistate to contact me.
             </p>
             <div class="overlap-group-3">
-              <div class="get-my-resume roboto-bold-white-16px">Get my resume</div>
+              <button type="button" class="get-my-resume roboto-bold-white-16px">Get my resume</button>
             </div>
           </div>
 
@@ -133,7 +155,7 @@ function Template7Main() {
 
         </div>
 
-        <div class="overlap-group13">
+        <div class="overlap-group13" id="footer">
           <div class="group-13">
 
             <div className="interested">
@@ -158,7 +180,7 @@ function Template7Main() {
               </div>
 
               <div class="overlap-group1-2">
-                <div class="get-in-touch roboto-bold-white-16px">Get in touch</div>
+                <button type="submit" class="get-in-touch roboto-bold-white-16px">Get in touch</button>
                 <a href="mailto:cg@gmailjob.com" target="_blank" class="align-self-flex-end"
                 ><div class="cggmailjobcom roboto-normal-periwinkle-16px">mhdezcoronado@gmail.com</div></a
                 >
@@ -166,11 +188,27 @@ function Template7Main() {
             </form>
 
             <div className="social-media-footer">
-              <img src={github} className="union" alt="union" />
-              <img src={twitter} className="union" alt="union" />
-              <img src={group32} className="union" alt="union" />
-              <img src={group31} className="union" alt="union" />
-              <img src={facebook} className="union" alt="union" />
+              <a href="https://github.com/Mhdez221993" target="_blank">
+                <img src={github} className="union" alt="union" />
+              </a>
+
+              <a href="https://twitter.com/MoisesH42060050" target="_blank" without rel="noreferrer">
+                <img src={twitter} className="union" alt="union" />
+              </a>
+
+
+              <a href="https://stackoverflow.com/users/14582840/moises-hernandez" target="_blank" without rel="noreferrer">
+                <img src={group32} className="union" alt="union" />
+              </a>
+
+              <a href="https://angel.co/u/moises-hernandez-7" target="_blank" without rel="noreferrer">
+                <img src={group31} className="union" alt="union" />
+              </a>
+
+
+              <a href="https://www.facebook.com/moises.hernandezcoronado" target="_blank" without rel="noreferrer">
+                <img src={facebook} className="union" alt="union" />
+              </a>
             </div>
 
             <div className="vector"></div>

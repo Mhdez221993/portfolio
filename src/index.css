@@ -50,4 +50,17 @@ code {
 
 a {
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+
+button {
+  background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  width: 100%;
 }
