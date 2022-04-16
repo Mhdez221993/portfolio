@@ -802,19 +802,12 @@
 }
 
 .cp {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--white);
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xxl);
-  background-color: var(--royal-blue);
-  font-weight: 800;
-  border-radius: 100px;
   height: 120px;
   width: 120px;
   padding: 5px;
   margin-bottom: 50px;
+  background-image: url(https://github.com/Mhdez221993/portfolio/blob/main/src/features/home/icons/ProfilePicture.png?raw=true);
+  background-size: 100%;
 }
 
 .overlap-group14 {
@@ -884,6 +877,7 @@
 
   .cp {
     margin: 0;
+    border-radius: 100px;
   }
 
   .span1 {

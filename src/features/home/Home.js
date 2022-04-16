@@ -24,7 +24,7 @@ function Template7Main() {
 
     <div class="template-7-main screen">
       <div class="overlap-group-container-1">
-        <div class="cp">Mhdez</div>
+        <div class="cp"></div>
         <div class="intro-portfolio-about-contact">
           <span class="span1">Intro</span>
           <span class="span1">Portfolio</span>
@@ -38,7 +38,7 @@ function Template7Main() {
           <div className="intro-container">
 
             <div class="mobile-heder">
-              <div class="cp ">Mhdez</div>
+              <div class="cp "></div>
               <span class="span1">Portfolio</span>
               <span class="span1">About</span>
               <span class="span1">Contact</span>
