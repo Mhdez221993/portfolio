@@ -355,11 +355,11 @@
   }
 
   .group-container-1 {
-    display: flex;
-    /* height: 341px; */
-    /* margin-left: 130px; */
-    /* margin-top: 50px; */
-    min-width: 837px;
+    display: grid;
+    height: 341px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
   }
 
   .overlap-group9 {
@@ -392,13 +392,12 @@
   }
 
   .group-37 {
-    align-items: flex-start;
     background-color: var(--zircon);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     /* min-height: 341px; */
-    /* padding: 31px 27px; */
+    padding: 31px 27px;
   }
 
   .java-script-es5es6-ruby-html-css {
@@ -412,9 +411,8 @@
 
   .languages {
     letter-spacing: 0;
-    /* line-height: 23.2px; */
-    /* margin-left: 1px; */
-    /* min-height: 23px; */
+    line-height: 23.2px;
+    margin-bottom: 20px;
     white-space: nowrap;
   }
 
