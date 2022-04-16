@@ -52,49 +52,35 @@ function Template7Main() {
           <div class="my-portfolio roboto-bold-scarpa-flow-28px">My Portfolio</div>
 
           <div class="overlap-group-container-3">
-            <div class="overlap-group1">
-              <div class="huziio poppins-semi-bold-white-20px">Huzi.io</div>
-            </div>
-            <div class="group-container">
-              <div class="overlap-group3">
-                <div class="soap-soap poppins-semi-bold-white-20px">SoapSoap</div>
-                <div class="group-9">
-                  <div class="overlap-group-1">
-                    <div class="htmlcss poppins-medium-mystic-14px">HTML/CSS</div>
-                  </div>
-                  <div class="overlap-group1-1">
-                    <div class="name poppins-medium-mystic-14px">Ruby on Rails</div>
-                  </div>
-                  <div class="overlap-group2">
-                    <div class="java-script poppins-medium-mystic-14px">JavaScript</div>
-                  </div>
-                </div>
-                <div class="overlap-group-2">
-                  <div class="see-the-project">See the project</div>
-                </div>
+            <div class="overlap-group3">
+              <div class="soap-soap poppins-semi-bold-white-20px">SoapSoap</div>
+              <div class="group-9">
+                <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
+                <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
+                <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
+              </div>
+              <div class="overlap-group-2">
+                <div class="see-the-project">See the project</div>
               </div>
             </div>
+
+            <div class="overlap-group3">
+              <div class="soap-soap poppins-semi-bold-white-20px">SoapSoap</div>
+              <div class="group-9">
+                <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
+                <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
+                <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
+              </div>
+              <div class="overlap-group-2">
+                <div class="see-the-project">See the project</div>
+              </div>
+            </div>
+
           </div>
 
-          <div class="overlap-group-container">
-            <div class="overlap-group4">
-              <div class="traviso poppins-semi-bold-white-20px">Traviso</div>
-            </div>
-            <div class="overlap-group5">
-              <div class="carsell poppins-semi-bold-white-20px">Carsell</div>
-            </div>
-          </div>
 
-          <div class="overlap-group-container">
-            <div class="overlap-group6">
-              <div class="audition poppins-semi-bold-white-20px">Audition</div>
-            </div>
-            <div class="overlap-group7">
-              <div class="weather-app poppins-semi-bold-white-20px">WeatherApp</div>
-            </div>
-          </div>
 
-          <div class="group-38">
+          {/* <div class="group-38">
             <div class="about-me roboto-bold-scarpa-flow-28px">About me</div>
             <p class="in-three-sentences-d roboto-normal-storm-gray-16px">
               In three sentences describe who you are as a proffessional. Look through some of my work and experience! If you like what you see
@@ -129,7 +115,7 @@ function Template7Main() {
               <div class="languages roboto-normal-storm-gray-16px">HTML</div>
               <div class="languages roboto-normal-storm-gray-16px">CSS</div>
             </div>
-          </div>
+          </div> */}
 
         </div>
 

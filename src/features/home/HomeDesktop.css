@@ -88,22 +88,21 @@
   }
 
   .overlap-group-container-3 {
-    align-items: flex-start;
-    display: flex;
-    /* margin-left: 128px; */
-    /* margin-top: 49px; */
-    min-width: 835px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
   }
 
   .overlap-group1 {
-    align-items: flex-start;
+    /* align-items: flex-start; */
     background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62599356bd3456045c671682/releases/6259936b670b0b62486d7351/img/rectangle-25@2x.png);
     background-position: 50% 50%;
     background-size: cover;
-    display: flex;
-    /* height: 280px; */
-    min-width: 406px;
-    /* padding: 22px 0px 25px 25px; */
+    /* display: flex; */
+    height: 280px;
+    /* min-width: 406px; */
+    padding: 25px;
   }
 
   .huziio {
@@ -114,7 +113,7 @@
   }
 
   .group-container {
-    /* height: 280px; */
+    height: 280px;
     /* margin-left: 21px; */
     /* position: relative; */
     /* width: 408px; */
@@ -129,30 +128,23 @@
   }
 
   .overlap-group3 {
-    align-items: flex-start;
     background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62599356bd3456045c671682/releases/6259936b670b0b62486d7351/img/rectangle-26@2x.png);
     background-position: 50% 50%;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    /* left: 0; */
-    /* min-height: 280px; */
-    /* padding: 21px 27px; */
-    /* position: absolute; */
-    /* top: 0; */
-    /* width: 406px; */
+    height: 280px;
+    padding: 25px;
+    border-radius: 15px;
   }
 
   .overlap-group-2 {
-    align-items: flex-end;
     background-color: var(--royal-blue);
     border-radius: 60px;
-    display: flex;
-    /* height: 59px; */
     justify-content: flex-end;
-    /* margin-top: 100px; */
-    min-width: 225px;
-    /* padding: 18px; */
+    width: 250px;
+    padding: 15px;
+    margin-top: auto;
   }
 
   .see-the-project {
@@ -169,16 +161,12 @@
   }
 
   .soap-soap {
-    letter-spacing: 0;
-    /* line-height: 21.1px; */
-    /* min-height: 21px; */
-    white-space: nowrap;
+    margin-bottom: 20px;
   }
 
   .group-9 {
     align-items: flex-start;
     display: flex;
-    /* margin-top: 21px; */
     min-width: 307px;
   }
 
@@ -186,12 +174,8 @@
     align-items: flex-end;
     background-color: var(--scarpa-flow-2);
     border-radius: 40px;
-    display: flex;
-    /* height: 30px; */
-    justify-content: flex-end;
-    /* margin-left: 7px; */
-    min-width: 111px;
-    /* padding: 4px 9px; */
+    padding: 5px 15px;
+    margin-right: 10px;
   }
 
   .name {
@@ -361,16 +345,11 @@
 
   .content-wrapper {
     padding-left: 210px;
+    text-align: left;
   }
 
   .my-portfolio {
-    letter-spacing: 0;
-    /* line-height: 29.5px; */
-    /* min-height: 29px; */
-    white-space: nowrap;
-    /* width: 100%; */
-    text-align: left;
-    /* padding: 0 0 0 218px; */
+    padding: 50px 0;
   }
 
   .group-container-1 {
