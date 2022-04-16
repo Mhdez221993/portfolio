@@ -446,15 +446,23 @@
 
   .overlap-group13 {
     margin-top: auto;
-    /* background-image: url(https://raw.githubusercontent.com/Mhdez221993/portfolio/1e95763f990ec8f7a008fabf01c0f3f0fb4065d3/src/features/home/icons/footershape.svg); */
-    padding: 50px 50px 50px 0;
+    padding: 50px 50px 0 0;
     display: flex;
     flex-direction: column;
     text-align: left;
+    position: relative;
   }
 
   .group-13 {
     padding-left: 210px;
+    z-index: 9;
+    margin-bottom: 100px;
+  }
+
+  .footershape {
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 
   .interested {

@@ -1,6 +1,7 @@
 import React from "react";
 import './HomeDesktop.css';
 import facebook from './icons/facebook.svg';
+import footershape from './icons/footershape.svg';
 import github from './icons/github.svg';
 import group31 from './icons/group31.svg';
 import group32 from './icons/group32.svg';
@@ -168,6 +169,8 @@ function Template7Main() {
 
             <div class="copyright roboto-normal-periwinkle-16px">© 2022&nbsp;&nbsp;Moises Hernandez</div>
           </div>
+
+          <img className="footershape" src={footershape} />
         </div>
       </div>
     </div>
