@@ -11,6 +11,9 @@
 }
 
 .rectangle-16 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr;
   max-width: 900px;
   height: 90%;
   background: white;
@@ -26,4 +29,69 @@
   right: 10px;
   width: 24.5px;
   height: 24.5px;
+  z-index: 10;
 }
+
+.project-image {
+  background-image: url(https://github.com/Mhdez221993/portfolio/blob/main/src/features/home/icons/project.png?raw=true);
+  position: relative;
+}
+
+.thomnail-warpper {
+  position: absolute;
+  bottom: -28px;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px;
+}
+
+.see-live-source {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.thomenail1 {
+  flex-grow: 1;
+  display: flex;
+}
+
+.thom-image {
+  margin-left: 10px;
+}
+
+.see-live-source {
+  flex-grow: 1;
+}
+
+.see-source {
+  background: var(--radical-red);
+  color: var(--white);
+  border-radius: 60px;
+  font-weight: var(--font-size-xxxl);
+  font-size: var(--font-size-l);
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-left: 30px;
+}
+/*
+
+
+
+.see-live {
+  background: var(--radical-red);
+  color: var(--white);
+  border-radius: 60px;
+  font-weight: var(--font-size-xxxl);
+  font-size: var(--font-size-l);
+  padding: 10px 30px;
+}
+
+ */

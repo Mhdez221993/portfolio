@@ -22,6 +22,18 @@ html {
   --mystic:rgba(230, 232, 240, 1);
   --zircon:rgba(245, 248, 252, 1);
   --white:rgba(255, 255, 255, 1);
+  --black-2: rgba(0, 0, 0, 0.071);
+  --black: rgba(0, 0, 0, 1);
+  --royal-blue: rgba(67, 86, 251, 1);
+  --scarpa-flow: rgba(78, 83, 96, 1);
+  --scarpa-flow-2: rgba(79, 84, 97, 1);
+  --storm-gray: rgba(115, 120, 133, 1);
+  --manatee: rgba(145, 149, 158, 1);
+  --periwinkle: rgba(196, 202, 253, 1);
+  --mystic: rgba(230, 232, 240, 1);
+  --zircon: rgba(245, 248, 252, 1);
+  --radical-red: rgba(250, 73, 105, 1);
+  --white: rgba(255, 255, 255, 1);
 
   --font-size-s: 14px;
   --font-size-m: 16px;
