@@ -30,6 +30,7 @@
   width: 24.5px;
   height: 24.5px;
   z-index: 10;
+  cursor: pointer;
 }
 
 .project-image {

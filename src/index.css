@@ -76,3 +76,9 @@ button {
 	outline: inherit;
   width: 100%;
 }
+
+button:hover,
+.closeModal:hover,
+a:hover {
+  opacity: 0.6;
+}
