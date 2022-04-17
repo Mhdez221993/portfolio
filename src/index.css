@@ -82,3 +82,8 @@ button:hover,
 a:hover {
   opacity: 0.6;
 }
+
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--royal-blue);
+}
