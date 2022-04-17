@@ -29,7 +29,7 @@ function Template7Main() {
   return (
 
     <div class="template-7-main screen">
-      {ditail && <Details />}
+      {ditail && <Details setDisplayDitails={setDisplayDitails} />}
 
       <div class="overlap-group-container-1" id="intro">
         <div class="cp"></div>

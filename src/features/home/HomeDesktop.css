@@ -73,6 +73,7 @@
   /* overflow: hidden; */
   max-width: 1440px;
   margin: 0 auto;
+  /* z-index: 1; */
 }
 
 .hidden,
@@ -453,8 +454,9 @@
 }
 
 .group-13 {
+  position: relative;
   padding-left: 210px;
-  z-index: 9;
+  z-index: 1;
   margin-bottom: 100px;
 }
 
@@ -918,6 +920,7 @@
   }
 
   .overlap-group13 {
+    /* position: relative; */
     padding: 0;
   }
 
