@@ -38,7 +38,23 @@ function Details({ setDisplayDitails }) {
 
           </div>
         </div>
-        <div className='project-description'></div>
+        <div className='project-description'>
+          <h1 className="roboto-bold-scarpa-flow-28px">
+            SoapSoap
+          </h1>
+          <div class="group-9">
+            <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
+            <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby</div>
+            <div class="overlap-group1-1 poppins-medium-mystic-14px">Ruby on Rails</div>
+          </div>
+          <p className="lorem-ipsum-dolor-si">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+
+        </div>
       </div>
     </div>
   );
