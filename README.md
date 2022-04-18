@@ -34,6 +34,7 @@ npx eslint . --fix
 
 ## Helpful links
 * [How to make a modal](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal)
+* [Create-react-app - ERROR in Plugin "react" was conflicted between ".eslintrc.json" and "BaseConfig"](https://stackoverflow.com/questions/70449712/create-react-app-error-in-plugin-react-was-conflicted-between-eslintrc-jso)
 
 
 ## Authors
