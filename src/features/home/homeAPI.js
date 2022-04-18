@@ -1,6 +1,14 @@
-// A mock function to mimic making an async request for data
-export function fetchCount(amount = 1) {
-  return new Promise((resolve) =>
-    setTimeout(() => resolve({ data: amount }), 500)
-  );
-}
+import axios from 'axios';
+
+const BASE_URL = 'https://formspree.io/f/xknyqkgk';
+
+const fetchMessage = (payload = {}) => axios
+  .post(BASE_URL, {
+    payload,
+  })
+  .then((response) => {
+    console.log(response);
+    return response;
+  });
+
+export default fetchMessage;
