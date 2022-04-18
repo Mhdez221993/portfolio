@@ -853,6 +853,17 @@
   display: none;
 }
 
+.flash {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flash > p {
+  color: var(--royal-blue);
+}
+
 @media only screen and (max-width: 601px) {
   .overlap-group-container-1 {
     display: none;
