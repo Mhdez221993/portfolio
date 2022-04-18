@@ -8,46 +8,45 @@ class BST {
   insert(value) {
     if (value >= this.value) {
       if (!this.right) {
-        this.right = new BST(value)
-        return
+        this.right = new BST(value);
+        return;
       }
-      this.right.insert(value)
+      this.right.insert(value);
     } else if (value < this.value) {
       if (!this.left) {
-        this.left = new BST(value)
-        return
+        this.left = new BST(value);
+        return;
       }
-      this.left.insert(value)
+      this.left.insert(value);
     }
   }
 }
 
 function validateBstHelper(tree, root) {
   if (root > tree.value) {
-    if (tree.value > root || tree.value < tree.left.value) return false
+    if (tree.value > root || tree.value < tree.left.value) return false;
   } else {
 
   }
 }
 
 function validateBst(tree) {
-  if (!tree) return false
-  const root = tree.value
+  if (!tree) return false;
+  const root = tree.value;
 
   if (tree.left) {
-    validateBstHelper(tree, root)
+    validateBstHelper(tree, root);
   } else if (tree.right) {
-    validateBstHelper(tree, root)
+    validateBstHelper(tree, root);
   } else {
-    return true
+    return true;
   }
 
-  return true
+  return true;
 }
 
-
-let bst = new BST(10)
-bst.insert(5)
+const bst = new BST(10);
+bst.insert(5);
 // bst.insert(2)
 // bst.insert(6)
 // // bst.left.right.value = 10

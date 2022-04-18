@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 function Nav() {
   return (
-    <div class="overlap-group-container-1" id="intro">
-      <div class="cp"></div>
-      <div class="intro-portfolio-about-contact">
+    <div className="overlap-group-container-1" id="intro">
+      <div className="cp" />
+      <div className="intro-portfolio-about-contact">
         <a className="span1" href="#intro">Intro</a>
         <a className="span1" href="#portfolio">Portfolio</a>
         <a className="span1" href="#about">About</a>

@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import React, { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { messageAsync, setValue } from './homeSlice';
 
 function Form() {
   const dispatch = useDispatch();
-  const value = useSelector(state => state.contact.value);
+  const value = useSelector((state) => state.contact.value);
   const [state, setState] = useState(
     {
       Name: '',
@@ -25,7 +25,7 @@ function Form() {
           Name: '',
           Email: '',
           message: '',
-        })
+        });
       })
       .catch((e) => {
         // eslint-disable-next-line no-console
@@ -34,7 +34,7 @@ function Form() {
   };
 
   function timeout(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
+    return new Promise((resolve) => setTimeout(resolve, ms));
   }
 
   async function sleep() {
@@ -43,19 +43,20 @@ function Form() {
   }
 
   return (
-    <form class="overlap-group-container-4">
+    <form className="overlap-group-container-4">
       <div className="flash">
-        {sleep() && value &&
+        {sleep() && value
+          && (
           <p className="poppins-normal-storm-gray-16px">
             I appreciate you reaching out
           </p>
-        }
+          )}
       </div>
       <div className="input-wrapper">
-        <div class="inputs">
+        <div className="inputs">
 
           <input
-            class="overlap-group-4 poppins-normal-storm-gray-16px"
+            className="overlap-group-4 poppins-normal-storm-gray-16px"
             placeholder="Name*"
             name="Name"
             value={state.Name}
@@ -64,7 +65,8 @@ function Form() {
             type="text"
           />
 
-          <input class="overlap-group-4 poppins-normal-storm-gray-16px"
+          <input
+            className="overlap-group-4 poppins-normal-storm-gray-16px"
             placeholder="Email*"
             name="Email"
             value={state.Email}
@@ -75,30 +77,40 @@ function Form() {
 
         </div>
 
-        <div class="overlap-group3-1border-1px-black-2">
+        <div className="overlap-group3-1border-1px-black-2">
 
-          <textarea class="message roboto-normal-manatee-16px"
+          <textarea
+            className="message roboto-normal-manatee-16px"
             name="message"
             value={state.message}
             onChange={handleInput}
             id="message"
             type="text"
             placeholder="Message*"
-          ></textarea>
+          />
 
         </div>
       </div>
 
-      <div class="overlap-group1-2">
+      <div className="overlap-group1-2">
 
-        <button type="submit"
+        <button
+          type="submit"
           value="Submit"
-          class="get-in-touch roboto-bold-white-16px"
+          className="get-in-touch roboto-bold-white-16px"
           onClick={handleSubmit}
-        >Get in touch</button>
+        >
+          Get in touch
+        </button>
 
-        <a href="mailto:cg@gmailjob.com" target="_blank" class="align-self-flex-end"
-        ><div class="cggmailjobcom roboto-normal-periwinkle-16px">mhdezcoronado@gmail.com</div></a>
+        <a
+          href="mailto:cg@gmailjob.com"
+          target="_blank"
+          className="align-self-flex-end"
+          rel="noreferrer"
+        >
+          <div className="cggmailjobcom roboto-normal-periwinkle-16px">mhdezcoronado@gmail.com</div>
+        </a>
       </div>
     </form>
   );

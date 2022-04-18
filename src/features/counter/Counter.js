@@ -4,7 +4,7 @@ import styles from './Counter.module.css';
 import {
   decrement,
   increment, incrementAsync, incrementByAmount, incrementIfOdd,
-  selectCount
+  selectCount,
 } from './counterSlice';
 
 export function Counter() {

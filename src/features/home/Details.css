@@ -1,5 +1,4 @@
 .overlap-group8 {
-  position: relative;
   align-items: center;
   justify-content: center;
   position: fixed;
@@ -17,7 +16,7 @@
   max-width: 900px;
   height: 90vh;
   background: white;
-  box-shadow: 0px 34px 104px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 34px 104px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
   margin: 0 auto;
   position: relative;
@@ -56,6 +55,7 @@
   align-content: center;
   justify-content: space-between;
   padding: 0 20px;
+  flex-grow: 1;
 }
 
 .thomenail1 {
@@ -65,10 +65,6 @@
 
 .thom-image {
   margin-left: 10px;
-}
-
-.see-live-source {
-  flex-grow: 1;
 }
 
 .see-source {
@@ -104,20 +100,20 @@
   min-height: 141px;
 }
 
-@media only screen and (max-width: 600px){
-	.overlap-group8 {
+@media only screen and (max-width: 600px) {
+  .overlap-group8 {
     padding: 30px;
   }
 }
 
-@media only screen and (min-width: 1600px){
+@media only screen and (min-width: 1600px) {
   .rectangle-16 {
     margin-right: 30%;
   }
 }
 
-@media only screen and (min-width: 1850px){
-	.rectangle-16 {
+@media only screen and (min-width: 1850px) {
+  .rectangle-16 {
     margin-right: 40%;
   }
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import Shape1 from './icons/Shape-1.svg';
 import Shape from './icons/Shape.svg';
 import Subtract1 from './icons/Subtract-1.svg';
@@ -11,7 +11,7 @@ function MediaHeader() {
     <div className="my-work-on-social-network">
       <p className="my-work-p">My work on socail networks</p>
 
-      <a href="https://github.com/Mhdez221993" target="_blank">
+      <a href="https://github.com/Mhdez221993" target="_blank" rel="noreferrer">
         <img src={Union} className="union" alt="union" />
       </a>
 
