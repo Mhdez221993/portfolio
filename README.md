@@ -1,6 +1,6 @@
 # Moises Hernandez Coronado
 
-Software Engineer | JavaScript, Rails, React, Redux | In love with pair-programming, JavaScript, and remote work.
+Software Engineer | JavaScript, Rails, React, Redux | In love with pair-programming, JavaScript, C++, and remote work.
 
 ![screetshot](./portfolio.PNG)
 
