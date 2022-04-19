@@ -14,9 +14,9 @@ function Details({ setDisplayDitails }) {
   return (
     <div className="overlap-group8">
       <div className="rectangle-16">
-        <div onClick={nonDisplay} className="closeModal">
+        <button onClick={nonDisplay} onKeyDown={nonDisplay} type="button" className="closeModal">
           <img src={group18} alt="group18" />
-        </div>
+        </button>
         <div className="project-image">
           <div className="thomnail-warpper">
 
@@ -27,12 +27,12 @@ function Details({ setDisplayDitails }) {
             </div>
 
             <div className="see-live-source">
-              <button className="see-source">
+              <button type="button" className="see-source">
                 See source
                 <img src={Fill4} alt="Fill4" />
               </button>
 
-              <button className="see-source">
+              <button type="button" className="see-source">
                 See Live
                 <img src={Group41} alt="Group41" />
               </button>

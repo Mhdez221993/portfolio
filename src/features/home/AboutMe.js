@@ -5,7 +5,8 @@ function AboutMe() {
     <div className="group-38" id="about">
       <div className="about-me roboto-bold-scarpa-flow-28px">About me</div>
       <p className="in-three-sentences-d roboto-normal-storm-gray-16px">
-        In three sentences describe who you are as a proffessional. Look through some of my work and experience! If you like what you see
+        In three sentences describe who you are as a
+        proffessional. Look through some of my work and experience! If you like what you see
         and have project
         {' '}
         <br />

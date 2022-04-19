@@ -19,20 +19,19 @@ export const homeSlice = createSlice({
   initialState,
 
   reducers: {
-    setValue: (state) => {
-      state.value = false;
-    },
+    setValue: (state) => ({ ...state, value: false }),
   },
 
   extraReducers: (builder) => {
     builder
-      .addCase(messageAsync.pending, (state) => {
-        state.status = 'loading';
-      })
-      .addCase(messageAsync.fulfilled, (state, action) => {
-        state.status = 'idle';
-        state.value = action.payload;
-      });
+      .addCase(messageAsync.pending, (state) => ({
+        ...state, status: 'loading',
+      }))
+
+      .addCase(messageAsync.fulfilled, (state, action) => ({
+        status: 'idle',
+        value: action.payload,
+      }));
   },
 });
 
