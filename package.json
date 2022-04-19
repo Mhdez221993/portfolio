@@ -8,6 +8,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.26.1",
+    "prop-types": "^15.8.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-redux": "^7.2.8",
@@ -35,5 +36,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-eslint": "10.1.x",
+    "eslint": "7.11.x",
+    "eslint-config-airbnb": "18.1.x",
+    "eslint-plugin-import": "2.22.x",
+    "eslint-plugin-jsx-a11y": "6.5.x",
+    "eslint-plugin-react": "7.29.x",
+    "eslint-plugin-react-hooks": "2.5.x",
+    "stylelint": "13.3.x",
+    "stylelint-config-standard": "20.0.x",
+    "stylelint-csstree-validator": "^2.0.0",
+    "stylelint-scss": "3.17.x"
   }
 }

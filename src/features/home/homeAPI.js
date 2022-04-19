@@ -6,9 +6,6 @@ const fetchMessage = (payload = {}) => axios
   .post(BASE_URL, {
     payload,
   })
-  .then((response) => {
-    console.log(response);
-    return response;
-  });
+  .then((response) => response);
 
 export default fetchMessage;
