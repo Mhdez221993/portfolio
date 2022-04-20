@@ -24,16 +24,20 @@
 
 .closeModal {
   position: absolute;
-  top: -30px;
-  right: 10px;
-  width: 24.5px;
+  top: -25px;
+  right: -25px;
+  width: 60px;
   height: 24.5px;
   z-index: 10;
   cursor: pointer;
 }
 
+.close {
+  width: 100%;
+}
+
 .project-image {
-  background-image: url(https://github.com/Mhdez221993/portfolio/blob/main/src/features/home/icons/project.png?raw=true);
+  /* background-image: url(https://github.com/Mhdez221993/portfolio/blob/main/src/features/home/icons/project.png?raw=true); */
   position: relative;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -41,7 +45,7 @@
 
 .thomnail-warpper {
   position: absolute;
-  bottom: 30px;
+  bottom: -18px;
   height: 60px;
   width: 100%;
   display: flex;
@@ -65,6 +69,7 @@
 
 .thom-image {
   margin-left: 10px;
+  max-width: 80px;
 }
 
 .see-source {
@@ -98,6 +103,14 @@
   letter-spacing: 0;
   line-height: 16.8px;
   min-height: 141px;
+}
+
+.source-img {
+  width: 25px;
+}
+
+.live-img {
+  width: 20px;
 }
 
 @media only screen and (max-width: 600px) {

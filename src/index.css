@@ -87,3 +87,7 @@ input:focus,
 textarea:focus {
   outline: 2px solid var(--royal-blue);
 }
+
+img {
+  width: 100%;
+}

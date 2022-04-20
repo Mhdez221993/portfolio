@@ -907,12 +907,8 @@
 
 .in-three-sentences-d {
   letter-spacing: 0;
-
-  /* line-height: 22px; */
-
-  /* margin-top: 23px; */
-
-  /* min-height: 111px; */
+  line-height: 22px;
+  margin-top: 23px;
   text-align: left;
 }
 
