@@ -1,15 +1,31 @@
-import React, { useState } from 'react';
+import React from 'react';
 import AboutMe from './AboutMe';
-import Details from './Details';
 import Form from './Form';
 import './HomeDesktop.css';
 import footershape from './icons/footershape.svg';
+import rocket2 from './images/space/rocket2.jpg';
+import space1 from './images/space/space1.PNG';
+import space2 from './images/space/space2.PNG';
+import space3 from './images/space/space3.PNG';
+import space4 from './images/space/space4.PNG';
 import MediaFooter from './MediaFooter';
 import MediaHeader from './MediaHeader';
 import MyPortfolio from './MyPortfoli';
 import Nav from './Nav';
 import NavMobile from './NavMobile';
 import Skills from './Skills';
+
+const projects = [
+  {
+    title: "Space Travelers's Hub",
+    techStack: ['React', 'Redux', 'HTML/SCSS', 'Jest'],
+    backgroundImage: rocket2,
+    images: [space1, space2, space3, space4],
+    source: 'https://github.com/Mhdez221993/spacex_travelers_hub',
+    live: 'https://magical-taffy-2adbc3.netlify.app',
+    description: "The Space Travelers' Hub consists of Rockets, Missions, and the My Profile section. Rockets /Dragons The Rockets section displays a list of all available SpaceX rockets. Users can book each rocket by clicking the reservation button or cancel the previously made booking. Missions The Missions section displays a list of current missions along with their brief description and participation status. My Profile The My Profile section displays all reserved rockets and space missions.",
+  },
+];
 
 function App() {
   return <Template7Main />;
@@ -18,15 +34,9 @@ function App() {
 export default App;
 
 function Template7Main() {
-  const [ditail, setDisplayDitails] = useState(false);
-  const displayDitail = () => {
-    setDisplayDitails(true);
-  };
-
   return (
 
     <div className="template-7-main screen">
-      {ditail && <Details setDisplayDitails={setDisplayDitails} />}
 
       <Nav />
 
@@ -59,7 +69,16 @@ function Template7Main() {
 
           <div className="my-portfolio roboto-bold-scarpa-flow-28px" id="portfolio">My Portfolio</div>
 
-          <MyPortfolio displayDitail={displayDitail} />
+          <div className="overlap-group-container-3">
+            {
+              projects.map((project) => (
+                <MyPortfolio
+                  key={project.title}
+                  project={project}
+                />
+              ))
+            }
+          </div>
 
           <AboutMe />
 
