@@ -148,7 +148,7 @@
 }
 
 .overlap-group3 {
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62599356bd3456045c671682/releases/6259936b670b0b62486d7351/img/rectangle-26@2x.png);
+  /* background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62599356bd3456045c671682/releases/6259936b670b0b62486d7351/img/rectangle-26@2x.png); */
   background-position: 50% 50%;
   background-size: cover;
   display: flex;
