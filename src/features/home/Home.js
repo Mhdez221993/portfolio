@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
 import AboutMe from './AboutMe';
+import Details from './Details';
 import Form from './Form';
 import './HomeDesktop.css';
+import { setProject } from './homeSlice';
 import footershape from './icons/footershape.svg';
 import rocket2 from './images/space/rocket2.jpg';
 import space1 from './images/space/space1.PNG';
@@ -34,9 +37,20 @@ function App() {
 export default App;
 
 function Template7Main() {
+  const dispatch = useDispatch();
+
+  const [ditail, setDisplayDitails] = useState(false);
+
+  const displayDitail = (project) => {
+    dispatch(setProject(project));
+    setDisplayDitails(true);
+  };
+
   return (
 
     <div className="template-7-main screen">
+
+      {ditail && <Details setDisplayDitails={setDisplayDitails} />}
 
       <Nav />
 
@@ -75,6 +89,7 @@ function Template7Main() {
                 <MyPortfolio
                   key={project.title}
                   project={project}
+                  displayDitail={() => displayDitail(project)}
                 />
               ))
             }
