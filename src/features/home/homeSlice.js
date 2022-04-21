@@ -4,6 +4,7 @@ import fetchMessage from './homeAPI';
 const initialState = {
   value: false,
   status: 'idle',
+  project: {},
 };
 
 export const messageAsync = createAsyncThunk(
@@ -20,6 +21,7 @@ export const homeSlice = createSlice({
 
   reducers: {
     setValue: (state) => ({ ...state, value: false }),
+    setProject: (state, action) => ({ ...state, project: action.payload }),
   },
 
   extraReducers: (builder) => {
@@ -35,6 +37,6 @@ export const homeSlice = createSlice({
   },
 });
 
-export const { setValue } = homeSlice.actions;
+export const { setValue, setProject } = homeSlice.actions;
 
 export default homeSlice.reducer;
