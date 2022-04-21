@@ -49,25 +49,22 @@ function Details({ setDisplayDitails }) {
 
             <div className="thomenail1">
 
-              <button type="button" onClick={() => swapImages(state1, setState1)}>
+              <button className="thom-image" s type="button" onClick={() => swapImages(state1, setState1)}>
                 <img
-                  className="thom-image"
                   src={state1}
                   alt="thom-nail"
                 />
               </button>
 
-              <button type="button" onClick={() => swapImages(state2, setState2)}>
+              <button className="thom-image" type="button" onClick={() => swapImages(state2, setState2)}>
                 <img
-                  className="thom-image"
                   src={state2}
                   alt="thom-nail"
                 />
               </button>
 
-              <button type="button" onClick={() => swapImages(state3, setState3)}>
+              <button className="thom-image" type="button" onClick={() => swapImages(state3, setState3)}>
                 <img
-                  className="thom-image"
                   src={state3}
                   alt="thom-nail"
                 />
