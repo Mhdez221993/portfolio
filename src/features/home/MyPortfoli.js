@@ -17,7 +17,7 @@ function MyPortfolio({ project, displayDitail }) {
       <div className="soap-soap poppins-semi-bold-white-20px">{title}</div>
       <div className="group-9">
         {
-          techStack.map((stack) => (
+          techStack.slice(1).map((stack) => (
             <div
               key={stack}
               className="overlap-group1-1 poppins-medium-mystic-14px"

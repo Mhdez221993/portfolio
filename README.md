@@ -4,6 +4,8 @@ Software Engineer | JavaScript, Rails, React, Redux | In love with pair-programm
 
 ![screetshot](./portfolio.PNG)
 
+## [Go Live](https://moises-hernandez.herokuapp.com/)
+
 ## Built With
 
 - React
@@ -17,8 +19,9 @@ To get a local copy up and running follow these simple example steps.
 Run in your terminal `git clone git@github.com:Mhdez221993/portfolio.git`
 
 ## Run some test
+
 ```
-$ rspec spec --format documentation
+rspec spec --format documentation
 ```
 
 ## Check linters and fix them
@@ -31,11 +34,11 @@ npx stylelint "**/*.{css,scss}" --fix
 npx eslint . --fix
 ```
 
-
 ## Helpful links
-* [How to make a modal](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal)
-* [Create-react-app - ERROR in Plugin "react" was conflicted between ".eslintrc.json" and "BaseConfig"](https://stackoverflow.com/questions/70449712/create-react-app-error-in-plugin-react-was-conflicted-between-eslintrc-jso)
 
+- [How to make a modal](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal)
+
+- [Create-react-app - ERROR in Plugin "react" was conflicted between ".eslintrc.json" and "BaseConfig"](https://stackoverflow.com/questions/70449712/create-react-app-error-in-plugin-react-was-conflicted-between-eslintrc-jso)
 
 ## Authors
 
@@ -60,6 +63,3 @@ Give a ⭐️ if you like this project!
 - To [Microverse](https://www.figma.com/file/t3EJUCAEViw3QasuJLPLVT/Microverse-Student-Potfolio-Templates-Main?node-id=23%3A11) for providinh design.
 - To my coding partner who helped me through all the work
 - To my Stand Up Team who kept my morale up!
-
-
-
