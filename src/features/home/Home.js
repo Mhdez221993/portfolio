@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import AboutMe from './AboutMe';
 import Details from './Details';
 import Form from './Form';
 import './HomeDesktop.css';
+import { projectsAsync, setProject } from './homeSlice';
 import footershape from './icons/footershape.svg';
 import MediaFooter from './MediaFooter';
 import MediaHeader from './MediaHeader';
@@ -18,14 +20,26 @@ function App() {
 export default App;
 
 function Template7Main() {
+  const dispatch = useDispatch();
+
   const [ditail, setDisplayDitails] = useState(false);
-  const displayDitail = () => {
+  const { projects } = useSelector(({ home }) => home);
+
+  const displayDitail = (project) => {
+    dispatch(setProject(project));
     setDisplayDitails(true);
   };
+
+  useState(() => {
+    if (!projects.length) {
+      dispatch(projectsAsync());
+    }
+  });
 
   return (
 
     <div className="template-7-main screen">
+
       {ditail && <Details setDisplayDitails={setDisplayDitails} />}
 
       <Nav />
@@ -59,7 +73,17 @@ function Template7Main() {
 
           <div className="my-portfolio roboto-bold-scarpa-flow-28px" id="portfolio">My Portfolio</div>
 
-          <MyPortfolio displayDitail={displayDitail} />
+          <div className="overlap-group-container-3">
+            {
+              projects.map((project) => (
+                <MyPortfolio
+                  key={project.title}
+                  project={project}
+                  displayDitail={() => displayDitail(project)}
+                />
+              ))
+            }
+          </div>
 
           <AboutMe />
 

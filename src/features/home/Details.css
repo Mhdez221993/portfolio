@@ -4,7 +4,7 @@
   position: fixed;
   z-index: 10;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: rgba(255, 254, 254, 0.7);
   padding: 50px 0;
 }
@@ -37,7 +37,6 @@
 }
 
 .project-image {
-  /* background-image: url(https://github.com/Mhdez221993/portfolio/blob/main/src/features/home/icons/project.png?raw=true); */
   position: relative;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -45,11 +44,12 @@
 
 .thomnail-warpper {
   position: absolute;
-  bottom: -18px;
+  bottom: -25px;
   height: 60px;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 5px 30px;
 }
 
@@ -70,13 +70,17 @@
 .thom-image {
   margin-left: 10px;
   max-width: 80px;
+  background: white;
+  box-shadow: 0 34px 104px rgba(92, 90, 90, 0.6);
+  margin-right: 10px;
 }
 
 .see-source {
+  min-width: 170px;
   background: var(--radical-red);
   color: var(--white);
   border-radius: 60px;
-  font-weight: var(--font-size-xxxl);
+  font-weight: var(--font-size-l);
   font-size: var(--font-size-l);
   display: flex;
   align-items: center;
@@ -106,11 +110,11 @@
 }
 
 .source-img {
-  width: 25px;
+  width: 20px;
 }
 
 .live-img {
-  width: 20px;
+  width: 16px;
 }
 
 @media only screen and (max-width: 600px) {

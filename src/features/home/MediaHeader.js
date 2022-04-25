@@ -15,23 +15,23 @@ function MediaHeader() {
         <img src={Union} className="union" alt="union" />
       </a>
 
-      <a href="https://stackoverflow.com/users/14582840/moises-hernandez" target="_blank" without rel="noreferrer">
+      <a href="https://stackoverflow.com/users/14582840/moises-hernandez" target="_blank" without="true" rel="noreferrer">
         <img src={Union1} className="union" alt="union" />
       </a>
 
-      <a href="https://www.linkedin.com/in/moises-hdez-coronado/" target="_blank" without rel="noreferrer">
+      <a href="https://www.linkedin.com/in/moises-hdez-coronado/" target="_blank" without="true" rel="noreferrer">
         <img src={Shape} className="union" alt="union" />
       </a>
 
-      <a href="https://twitter.com/MoisesH42060050" target="_blank" without rel="noreferrer">
+      <a href="https://twitter.com/MoisesH42060050" target="_blank" without="true" rel="noreferrer">
         <img src={Shape1} className="union" alt="union" />
       </a>
 
-      <a href="https://www.facebook.com/moises.hernandezcoronado" target="_blank" without rel="noreferrer">
+      <a href="https://www.facebook.com/moises.hernandezcoronado" target="_blank" without="true" rel="noreferrer">
         <img src={Subtract1} className="union" alt="union" />
       </a>
 
-      <a href="https://angel.co/u/moises-hernandez-7" target="_blank" without rel="noreferrer">
+      <a href="https://angel.co/u/moises-hernandez-7" target="_blank" without="true" rel="noreferrer">
         <img src={Subtract2} className="union" alt="union" />
       </a>
 
