@@ -16,7 +16,7 @@ function Details({ setDisplayDitails }) {
     description,
     live,
     source,
-  } = useSelector(({ contact }) => contact.project);
+  } = useSelector(({ home }) => home.project);
 
   const [state, setState] = useState(images[0]);
 

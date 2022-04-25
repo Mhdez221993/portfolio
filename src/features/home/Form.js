@@ -4,7 +4,7 @@ import { messageAsync, setValue } from './homeSlice';
 
 function Form() {
   const dispatch = useDispatch();
-  const value = useSelector((state) => state.contact.value);
+  const { value } = useSelector(({ home }) => home);
   const [state, setState] = useState(
     {
       Name: '',
@@ -47,9 +47,9 @@ function Form() {
       <div className="flash">
         {sleep() && value
           && (
-          <p className="poppins-normal-storm-gray-16px">
-            I appreciate you reaching out
-          </p>
+            <p className="poppins-normal-storm-gray-16px">
+              I appreciate you reaching out
+            </p>
           )}
       </div>
       <div className="input-wrapper">
