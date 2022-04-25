@@ -20,6 +20,7 @@ function App() {
 export default App;
 
 function Template7Main() {
+  const image = 'https://anima-uploads.s3.amazonaws.com/projects/62599356bd3456045c671682/releases/6259936b670b0b62486d7351/img/header-shape@1x.svg';
   const dispatch = useDispatch();
 
   const [ditail, setDisplayDitails] = useState(false);
@@ -46,7 +47,10 @@ function Template7Main() {
 
       <div className="flex-col">
 
-        <div className="overlap-group-container-2">
+        <div
+          className="overlap-group-container-2"
+          style={{ backgroundImage: `url(${image})` }}
+        >
 
           <div className="intro-container">
 
