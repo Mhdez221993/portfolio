@@ -4,7 +4,7 @@ import homeReducer from '../features/home/homeSlice';
 
 const store = configureStore({
   reducer: {
-    contact: homeReducer,
+    home: homeReducer,
   },
   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
 });
