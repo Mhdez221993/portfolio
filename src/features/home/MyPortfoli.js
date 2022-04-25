@@ -39,9 +39,7 @@ MyPortfolio.propTypes = {
   project: PropTypes.shape({
     title: string.isRequired,
     backgroundImage: string.isRequired,
-    techStack: PropTypes.shape([
-      string.isRequired,
-    ]),
+    techStack: PropTypes.arrayOf(string.isRequired),
   }).isRequired,
 };
 
