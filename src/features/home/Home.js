@@ -6,6 +6,7 @@ import Form from './Form';
 import './HomeDesktop.css';
 import { projectsAsync, setProject } from './homeSlice';
 import footershape from './icons/footershape.svg';
+import headerImage from './icons/header_image.svg';
 import MediaFooter from './MediaFooter';
 import MediaHeader from './MediaHeader';
 import MyPortfolio from './MyPortfoli';
@@ -20,7 +21,6 @@ function App() {
 export default App;
 
 function Template7Main() {
-  const image = 'https://anima-uploads.s3.amazonaws.com/projects/62599356bd3456045c671682/releases/6259936b670b0b62486d7351/img/header-shape@1x.svg';
   const dispatch = useDispatch();
 
   const [ditail, setDisplayDitails] = useState(false);
@@ -49,7 +49,7 @@ function Template7Main() {
 
         <div
           className="overlap-group-container-2"
-          style={{ backgroundImage: `url(${image})` }}
+          style={{ backgroundImage: `url(${headerImage})` }}
         >
 
           <div className="intro-container">
