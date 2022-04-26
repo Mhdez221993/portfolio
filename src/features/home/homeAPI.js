@@ -19,6 +19,11 @@ import space1 from './images/space/space1.PNG';
 import space2 from './images/space/space2.PNG';
 import space3 from './images/space/space3.PNG';
 import space4 from './images/space/space4.PNG';
+import ticTackToe1 from './images/tic/tic_tac_toe1.jpeg';
+import ticTackToe2 from './images/tic/tic_tac_toe2.jpeg';
+import ticTackToe3 from './images/tic/tic_tac_toe3.PNG';
+import ticTackToe4 from './images/tic/tic_tac_toe4.PNG';
+import ticTackToe5 from './images/tic/tic_tac_toe5.PNG';
 
 const BASE_URL = 'https://formspree.io/f/xknyqkgk';
 
@@ -64,6 +69,15 @@ const projects = [
     source: 'https://github.com/Mhdez221993/rubocop',
     live: '',
     description: 'This project was built in ruby to check ruby code, it is a linters for beginners, it provides feedback about errors or warning in code little by little. It was developed following the best practices. In this project we are looking for the following errors: Wrong indentation Trailing spaces New line errorsEmpty files Last empty line',
+  },
+  {
+    title: 'Tic Tac Toe',
+    techStack: ['RSpec', 'Ruby', 'Unix shell'],
+    backgroundImage: ticTackToe1,
+    images: [ticTackToe2, ticTackToe3, ticTackToe4, ticTackToe5],
+    source: 'https://github.com/Mhdez221993/tic_tac_toe',
+    live: '',
+    description: 'A game in which two players alternately put Xs and Os in compartments of a figure formed by two vertical lines crossing two horizontal lines and each tries to get a row of three Xs or three Os before the opponent does. I would like to point out that, this project is built in pure Ruby no packages, no Genfile needed.',
   },
 ];
 
