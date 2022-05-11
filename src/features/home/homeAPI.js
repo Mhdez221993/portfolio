@@ -8,11 +8,6 @@ import api3 from './images/comic_dance/api3.jpg';
 import apiDocs1 from './images/comic_dance/api_docs1.PNG';
 import apiDocs2 from './images/comic_dance/api_docs2.PNG';
 import apiDocs3 from './images/comic_dance/api_docs3.PNG';
-import covid1 from './images/covid/covid1.jpeg';
-import covid2 from './images/covid/covid2.jpeg';
-import covid3 from './images/covid/covid3.png';
-import deatils from './images/covid/deatils.PNG';
-import index from './images/covid/index.PNG';
 import linter1 from './images/linter/linter1.jpeg';
 import rubocop1 from './images/linter/rubocop1.PNG';
 import rubocop2 from './images/linter/rubocop2.PNG';
@@ -28,6 +23,10 @@ import ticTackToe2 from './images/tic/tic_tac_toe2.jpeg';
 import ticTackToe3 from './images/tic/tic_tac_toe3.PNG';
 import ticTackToe4 from './images/tic/tic_tac_toe4.PNG';
 import ticTackToe5 from './images/tic/tic_tac_toe5.PNG';
+import youtubeDetails from './images/youtube/youtube_details.PNG';
+import youtubeHome from './images/youtube/youtube_home.PNG';
+import youtubeSubscription from './images/youtube/youtube_subscriptions.PNG';
+import youtubeTrendings from './images/youtube/youtube_trendings.PNG';
 
 const BASE_URL = 'https://formspree.io/f/xknyqkgk';
 
@@ -57,13 +56,13 @@ const projects = [
     description: 'This API offers service to a react application that books and displays dance class appointments. It was built in Ruby on Rails, has twelve end-points to manage resources, is tested with Rspec, and uses Swagger for documentation.',
   },
   {
-    title: 'Covid Tracking',
-    techStack: ['HTML/SCSS', 'React', 'Redux', 'Jest'],
-    backgroundImage: covid2,
-    images: [covid1, covid3, deatils, index],
-    source: 'https://github.com/Mhdez221993/covid_tracking',
-    live: 'https://astounding-choux-36a789.netlify.app',
-    description: 'The Covid-19 Tracking Project collects information from different data sources to provide comprehensive data for the novel coronavirus, SARS-CoV-2.',
+    title: 'YouTube',
+    techStack: ['Express', 'Node.js', 'PostgreSQL', 'React'],
+    backgroundImage: youtubeDetails,
+    images: [youtubeDetails, youtubeSubscription, youtubeTrendings, youtubeHome],
+    source: 'https://github.com/Mhdez221993/youtube',
+    live: 'https://mhdez-youtube.herokuapp.com/',
+    description: "This is my own youtube version. A fully functional application, that allows you upload videos and songs. You can like, comment and subscribe to others' uploads",
   },
   {
     title: 'Rubocop',
