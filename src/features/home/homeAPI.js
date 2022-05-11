@@ -1,4 +1,8 @@
 import axios from 'axios';
+import chartAdobe from './images/chart/chart_adobe.jpeg';
+import chartAdobe1 from './images/chart/chart_adobe1.jpeg';
+import chartView from './images/chart/chart_view.PNG';
+import tableView from './images/chart/table_view.PNG';
 import api1 from './images/comic_dance/api1.jpg';
 import api3 from './images/comic_dance/api3.jpg';
 import apiDocs1 from './images/comic_dance/api_docs1.PNG';
@@ -53,7 +57,7 @@ const projects = [
     description: 'This API offers service to a react application that books and displays dance class appointments. It was built in Ruby on Rails, has twelve end-points to manage resources, is tested with Rspec, and uses Swagger for documentation.',
   },
   {
-    title: 'Covid Tracking App',
+    title: 'Covid Tracking',
     techStack: ['HTML/SCSS', 'React', 'Redux', 'Jest'],
     backgroundImage: covid2,
     images: [covid1, covid3, deatils, index],
@@ -78,6 +82,15 @@ const projects = [
     source: 'https://github.com/Mhdez221993/tic_tac_toe',
     live: '',
     description: 'A game in which two players alternately put Xs and Os in compartments of a figure formed by two vertical lines crossing two horizontal lines and each tries to get a row of three Xs or three Os before the opponent does. I would like to point out that, this project is built in pure Ruby no packages, no Genfile needed.',
+  },
+  {
+    title: 'Crypto Price Tracker',
+    techStack: ['Mocha', 'Vue', 'Vuetify', 'CSS'],
+    backgroundImage: chartView,
+    images: [chartAdobe1, tableView, chartView, chartAdobe],
+    source: 'https://github.com/Mhdez221993/crypto_tracker',
+    live: 'https://wonderful-fenglisu-f68b01.netlify.app',
+    description: 'This is a Vue project designed to track crypto coin prices. You can see the prices in the Bar chart or table mode. Also, you can interact with the table, which is multicolumn sorting or preferer to find a specific price or date, you can filter by custom input.',
   },
 ];
 
