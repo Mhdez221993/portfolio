@@ -58,7 +58,7 @@ const projects = [
     backgroundImage: covid2,
     images: [covid1, covid3, deatils, index],
     source: 'https://github.com/Mhdez221993/covid_tracking',
-    live: 'https://mh-react-capstone-project.herokuapp.com',
+    live: 'https://astounding-choux-36a789.netlify.app',
     description: 'The Covid-19 Tracking Project collects information from different data sources to provide comprehensive data for the novel coronavirus, SARS-CoV-2.',
   },
   {
