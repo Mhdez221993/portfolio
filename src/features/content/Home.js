@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import Footer from '../footer/Footer';
-import Header from '../header/Header';
 import AboutMe from './AboutMe';
 import Details from './Details';
 import './HomeDesktop.css';
@@ -9,13 +7,7 @@ import { projectsAsync, setProject } from './homeSlice';
 import MyPortfolio from './MyPortfoli';
 import Skills from './Skills';
 
-function App() {
-  return <Template7Main />;
-}
-
-export default App;
-
-function Template7Main() {
+function Content() {
   const dispatch = useDispatch();
 
   const [ditail, setDisplayDitails] = useState(false);
@@ -33,41 +25,29 @@ function Template7Main() {
   });
 
   return (
-
-    <div className="template-7-main screen">
-
+    <div className="content-wrapper">
       {ditail && <Details setDisplayDitails={setDisplayDitails} />}
 
-      <div className="flex-col">
+      <div className="my-portfolio roboto-bold-scarpa-flow-28px padding" id="portfolio">My Portfolio</div>
 
-        <Header />
-
-        <div className="content-wrapper">
-
-          <div className="my-portfolio roboto-bold-scarpa-flow-28px" id="portfolio">My Portfolio</div>
-
-          <div className="overlap-group-container-3">
-            {
-              projects.map((project) => (
-                <MyPortfolio
-                  key={project.title}
-                  project={project}
-                  displayDitail={() => displayDitail(project)}
-                />
-              ))
-            }
-          </div>
-
-          <AboutMe />
-
-          <Skills />
-
-        </div>
-
-        <Footer />
-
+      <div className="projects">
+        {
+          projects.map((project) => (
+            <MyPortfolio
+              key={project.title}
+              project={project}
+              displayDitail={() => displayDitail(project)}
+            />
+          ))
+        }
       </div>
+
+      <AboutMe />
+
+      <Skills />
 
     </div>
   );
 }
+
+export default Content;

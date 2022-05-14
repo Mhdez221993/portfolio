@@ -8,6 +8,11 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  width: 100%;
+  height: 100%;
+}
+
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700,500|Poppins:400,700,500,600,800");
 
 :root {

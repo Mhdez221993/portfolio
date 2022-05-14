@@ -3,7 +3,7 @@ import DownloadResume from './DownloadResume';
 
 function AboutMe() {
   return (
-    <div className="group-38" id="about">
+    <div className="about-me-wrapper" id="about">
       <div className="about-me roboto-bold-scarpa-flow-28px">About me</div>
       <p className="in-three-sentences-d roboto-normal-storm-gray-16px">
         Hi there! my name is Moises I&apos;m a full-stack software engineer.
