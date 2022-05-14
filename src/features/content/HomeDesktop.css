@@ -76,12 +76,18 @@
   font-style: normal;
 }
 
-.template-7-main {
+.header {
   background-color: var(--white);
-  display: flex;
-  max-width: 1440px;
-  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+  /* background-position-y: 190px; */
+  /* display: flex; */
+  /* min-height: 585px; */
+  /* background-size: 100%; */
 }
+
 
 .flex-col {
   max-width: 1139px;
@@ -153,13 +159,16 @@
 }
 
 .overlap-group-container-2 {
-  min-height: 685px;
+  /* min-height: 685px; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: 100%; */
 }
 
 .intro-container {
   display: flex;
   flex-direction: column;
-  padding: 100px 90px 0 210px;
+  /* padding: 100px 90px 0 210px; */
   text-align: left;
 }
 
@@ -217,7 +226,6 @@
 .content-wrapper {
   max-width: 784px;
   margin-left: auto;
-  /* padding-right: 100px; */
   margin-bottom: 150px;
   padding: 20px;
 }
@@ -228,7 +236,6 @@
 
 .skills {
   display: grid;
-  /* height: 341px; */
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-gap: 20px;
@@ -396,18 +403,9 @@
   white-space: nowrap;
 }
 
-.overlap-group-container-1 {
+.desktop-nav{
   width: 212px;
   padding-top: 40px;
-}
-
-.cp {
-  height: 120px;
-  width: 120px;
-  padding: 5px;
-  margin-bottom: 50px;
-  background-image: url(https://github.com/Mhdez221993/portfolio/blob/main/src/features/home/icons/ProfilePicture.png?raw=true);
-  background-size: 100%;
 }
 
 .intro-portfolio-about-contact {
@@ -427,10 +425,6 @@
   color: var(--scarpa-flow-2);
 }
 
-.mobile-heder {
-  display: none;
-}
-
 .flash {
   height: 40px;
   display: flex;
@@ -442,44 +436,27 @@
   color: var(--royal-blue);
 }
 
-@media only screen and (max-width: 601px) {
-  .overlap-group-container-1 {
-    display: none;
-  }
+.span1 {
+  margin-left: 40px;
+  color: var(--white);
+  font-family: var(--font-family-sora);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 54.2px;
+}
 
-  .overlap-group-container-2 {
-    background-image: url(https://raw.githubusercontent.com/Mhdez221993/portfolio/d40b8d9952614b514f205bdfd45e39b6d38b6733/src/features/home/icons/headerbackground-mobile.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
+@media only screen and (max-width: 601px) {
+  .title {
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
   }
 
   .intro-container {
     display: flex;
     flex-direction: column;
-    padding: 20px 40px;
+    /* padding: 20px 40px; */
     text-align: left;
-  }
-
-  .mobile-heder {
-    display: flex;
-    align-items: center;
-    align-content: center;
-  }
-
-  .cp {
-    margin: 0;
-    border-radius: 100px;
-  }
-
-  .span1 {
-    margin-left: 40px;
-    color: var(--white);
-    font-family: var(--font-family-sora);
-    font-size: var(--font-size-xl);
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: 54.2px;
   }
 
   .hello-i-am-a-softwar {
@@ -539,6 +516,10 @@
 }
 
 @media only screen and (max-width: 460px) {
+  .overlap-group-container-2 {
+
+  }
+
   .overlap-group1-2 {
     flex-direction: column;
   }
@@ -561,5 +542,19 @@
   .vector {
     width: 100%;
     margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .desktop-nav{
+    display: none;
+  }
+
+  .overlap-group-container-2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    /* background-position-y: 190px; */
   }
 }
