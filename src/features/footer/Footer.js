@@ -5,32 +5,19 @@ import MediaFooter from './MediaFooter';
 
 function Footer() {
   return (
-    <div className="overlap-group13" id="footer">
+    <div
+      className="footer"
+      style={{ backgroundImage: `url(${footershape})` }}
+      id="footer"
+    >
 
-      <div className="group-13">
+      <Form />
 
-        <div className="interested">
-          <div className="interested-in-collaborating roboto-bold-scarpa-flow-28px">Interested in collaborating?</div>
+      <MediaFooter />
 
-          <p className="if-you-have-an-appli poppins-normal-storm-gray-16px">
-            If you have an application you are interested in developing, a
-            feature that you need built or a project that need coding, I’d love
-            to help you with it.
-          </p>
+      <div className="vector" />
 
-        </div>
-
-        <Form />
-
-        <MediaFooter />
-
-        <div className="vector" />
-
-        <div className="copyright roboto-normal-periwinkle-16px">© 2022&nbsp;&nbsp;Moises Hernandez</div>
-
-      </div>
-
-      <img className="footershape" src={footershape} alt="footer" />
+      <div className="copyright roboto-normal-periwinkle-16px">© 2022&nbsp;&nbsp;Moises Hernandez</div>
 
     </div>
   );

@@ -43,7 +43,16 @@ function Form() {
   }
 
   return (
-    <form className="overlap-group-container-4">
+    <form className="form">
+
+      <div className="interested-in-collaborating roboto-bold-scarpa-flow-28px">Interested in collaborating?</div>
+
+      <p className="if-you-have-an-appli poppins-normal-storm-gray-16px">
+        If you have an application you are interested in developing, a
+        feature that you need built or a project that need coding, I’d love
+        to help you with it.
+      </p>
+
       <div className="flash">
         {sleep() && value
           && (

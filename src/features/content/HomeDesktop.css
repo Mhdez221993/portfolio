@@ -215,8 +215,11 @@
 }
 
 .content-wrapper {
-  max-width: 724px;
+  max-width: 784px;
   margin-left: auto;
+  /* padding-right: 100px; */
+  margin-bottom: 150px;
+  padding: 20px;
 }
 
 .padding {
@@ -251,31 +254,12 @@
   white-space: nowrap;
 }
 
-.overlap-group13 {
-  margin-top: auto;
-  padding: 50px 50px 0 0;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  position: relative;
-}
-
-.group-13 {
-  position: relative;
-  padding-left: 210px;
-  z-index: 1;
-  margin-bottom: 100px;
-}
-
-.footershape {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-.interested {
-  width: 600px;
-  margin-bottom: 40px;
+.footer {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+  background-position-y: 190px;
 }
 
 .interested-in-collaborating {
@@ -287,11 +271,12 @@
   letter-spacing: 0;
 }
 
-.overlap-group-container-4 {
+.form {
   display: flex;
   flex-direction: column;
-  min-width: 672px;
-  margin-bottom: 50px;
+  margin-left: auto;
+  max-width: 784px;
+  padding: 0 20px 100px 20px;
 }
 
 .inputs {
@@ -312,13 +297,13 @@
 .input-wrapper {
   display: flex;
   flex-direction: column;
-  max-width: 600px;
   margin-bottom: 50px;
 }
 
 .social-media-footer {
   display: flex;
   justify-content: flex-end;
+  padding: 0 20px;
 }
 
 .overlap-group1-2 {
@@ -338,14 +323,15 @@
 }
 
 .vector {
-  width: 100%;
+  width: 95.8%;
   border: 1px solid #6877ff;
-  margin: 20px 0;
+  margin: 20px 0 20px auto;
 }
 
 .copyright {
   letter-spacing: 0;
   text-align: right;
+  padding: 0 20px;
 }
 
 .cggmailjobcom {
@@ -375,10 +361,6 @@
   border-radius: 15px;
   border: 1px solid #accdff;
   padding: 20px;
-}
-
-.footer-shape {
-  top: 139px;
 }
 
 .about-me-wrapper {
@@ -511,9 +493,6 @@
     display: flex;
   }
 
-  .content-wrapper {
-    /* text-align: left; */
-  }
 
   .skills {
     grid-template-columns: 1fr;
@@ -538,26 +517,49 @@
     letter-spacing: 1px;
   }
 
-  .overlap-group13 {
-    padding: 0;
-  }
-
-  .group-13 {
+  .form {
     width: 100%;
-    padding: 0 40px;
-  }
-
-  .overlap-group-container-4 {
-    width: 100%;
-  }
-
-  .input-wrapper {
-    max-width: 100%;
   }
 
   .inputs {
     grid-template-columns: 1fr;
     grid-gap: 25px;
     margin-bottom: 40px;
+  }
+
+  .interested-in-collaborating {
+    font-size: var(--font-size-xl);
+  }
+}
+
+@media only screen and (min-width: 1174px) {
+  .footer {
+    background-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .overlap-group1-2 {
+    flex-direction: column;
+  }
+
+  .get-in-touch {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .social-media-footer {
+    justify-content: center
+  }
+
+  .copyright {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1174px) {
+  .vector {
+    width: 100%;
+    margin: 20px 0;
   }
 }
