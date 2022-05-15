@@ -34,8 +34,8 @@ function Details({ setDisplayDitails }) {
   };
 
   return (
-    <div className="overlap-group8">
-      <div className="rectangle-16">
+    <div className="display-project">
+      <div className="project-content">
         <button onClick={nonDisplay} onKeyDown={nonDisplay} type="button" className="closeModal">
           <img src={group18} alt="group18" className="close" />
         </button>
@@ -72,7 +72,7 @@ function Details({ setDisplayDitails }) {
 
             </div>
 
-            <div className="see-live-source">
+            <div className="source">
               <a href={source} target="_blank" rel="noreferrer" className="see-source">
                 See source
                 <img src={Fill4} alt="Fill4" className="source-img" />
@@ -92,12 +92,12 @@ function Details({ setDisplayDitails }) {
             {title}
           </h1>
 
-          <div className="group-9">
+          <div className="stacks">
             {
               techStack.map((stack) => (
                 <div
                   key={stack}
-                  className="overlap-group1-1 poppins-medium-mystic-14px"
+                  className="stack poppins-medium-mystic-14px"
                 >
                   {stack}
                 </div>

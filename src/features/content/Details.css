@@ -1,18 +1,20 @@
-.overlap-group8 {
+.display-project {
   align-items: center;
   justify-content: center;
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 10;
-  width: 100%;
-  height: 100vh;
   background-color: rgba(255, 254, 254, 0.7);
-  padding: 50px 0;
+  padding: 50px 20px;
+  box-sizing: border-box;
 }
 
-.rectangle-16 {
+.project-content {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
   max-width: 900px;
   height: 90vh;
   background: white;
@@ -20,6 +22,7 @@
   border-radius: 30px;
   margin: 0 auto;
   position: relative;
+  padding-bottom: 40px;
 }
 
 .closeModal {
@@ -39,7 +42,10 @@
 .project-image {
   position: relative;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  /* background-size: 100%; */
+  /* width: 100%; */
+  padding-bottom: 100px;
 }
 
 .thomnail-warpper {
@@ -48,35 +54,35 @@
   height: 60px;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  padding: 5px 30px;
 }
 
-.see-live-source {
+.source {
   display: flex;
-  align-items: center;
-  align-content: center;
+  flex-wrap: wrap;
+  padding: 0 10px;
   justify-content: space-between;
-  padding: 0 20px;
-  flex-grow: 1;
+  width: 100%;
 }
 
 .thomenail1 {
-  flex-grow: 1;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin-bottom: 20px;
 }
 
 .thom-image {
-  margin-left: 10px;
-  max-width: 80px;
+  /* max-width: 80px; */
   background: white;
   box-shadow: 0 34px 104px rgba(92, 90, 90, 0.6);
-  margin-right: 10px;
 }
 
 .see-source {
-  min-width: 170px;
+  min-width: 160px;
+  max-width: 180px;
+  /* flex-grow: 1; */
   background: var(--radical-red);
   color: var(--white);
   border-radius: 60px;
@@ -87,16 +93,29 @@
   align-content: center;
   justify-content: space-between;
   padding: 10px 20px;
-  margin-left: 30px;
+  margin-bottom: 20px;
 }
 
 .project-description {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 80%;
-  padding: 50px 40px 0 40px;
   text-align: left;
+  /* margin-top: 100px; */
+  padding: 140px 20px 0 20px;
+}
+
+.stacks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stack {
+  background-color: var(--scarpa-flow-2);
+  border-radius: 40px;
+  padding: 5px 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .lorem-ipsum-dolor-si {
@@ -106,7 +125,6 @@
   font-weight: 400;
   letter-spacing: 0;
   line-height: 16.8px;
-  min-height: 141px;
 }
 
 .source-img {
@@ -117,20 +135,20 @@
   width: 16px;
 }
 
-@media only screen and (max-width: 600px) {
-  .overlap-group8 {
-    padding: 30px;
+@media only screen and (min-width: 675px) {
+  .thomnail-warpper {
+    flex-direction: row;
   }
-}
 
-@media only screen and (min-width: 1600px) {
-  .rectangle-16 {
-    margin-right: 30%;
+  .thom-image {
+    max-width: 140px;
   }
-}
 
-@media only screen and (min-width: 1850px) {
-  .rectangle-16 {
-    margin-right: 40%;
+  .source {
+    width: 40%;
+  }
+
+  .project-description {
+    padding: 80px 20px 0 20px;
   }
 }
