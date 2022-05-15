@@ -583,4 +583,16 @@
 }
 
 @media only screen and (min-width: 1092px) {
+  .content-wrapper {
+    max-width: 870px;
+    padding-right: 100px;
+  }
+
+  .header {
+    padding-right: 100px;
+  }
+
+  .footer {
+    padding-right: 100px;
+  }
 }
