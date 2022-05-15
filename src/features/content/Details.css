@@ -1,0 +1,158 @@
+.display-project {
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: rgba(255, 254, 254, 0.7);
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+
+.project-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  max-width: 900px;
+  height: 90vh;
+  background: white;
+  box-shadow: 0 34px 104px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.closeModal {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  width: 60px;
+  height: 24.5px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.close {
+  width: 100%;
+}
+
+.project-image {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* background-size: 100%; */
+
+  /* width: 100%; */
+  padding-bottom: 100px;
+}
+
+.thomnail-warpper {
+  position: absolute;
+  bottom: -25px;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.source {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.thomenail1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin-bottom: 20px;
+}
+
+.thom-image {
+  /* max-width: 80px; */
+  background: white;
+  box-shadow: 0 34px 104px rgba(92, 90, 90, 0.6);
+}
+
+.see-source {
+  min-width: 160px;
+  max-width: 180px;
+
+  /* flex-grow: 1; */
+  background: var(--radical-red);
+  color: var(--white);
+  border-radius: 60px;
+  font-weight: var(--font-size-l);
+  font-size: var(--font-size-l);
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+
+  /* margin-top: 100px; */
+  padding: 140px 20px 0 20px;
+}
+
+.stacks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stack {
+  background-color: var(--scarpa-flow-2);
+  border-radius: 40px;
+  padding: 5px 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.lorem-ipsum-dolor-si {
+  color: var(--storm-gray);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 16.8px;
+}
+
+.source-img {
+  width: 20px;
+}
+
+.live-img {
+  width: 16px;
+}
+
+@media only screen and (min-width: 675px) {
+  .thomnail-warpper {
+    flex-direction: row;
+  }
+
+  .thom-image {
+    max-width: 140px;
+  }
+
+  .source {
+    width: 40%;
+  }
+
+  .project-description {
+    padding: 80px 20px 0 20px;
+  }
+}

@@ -39,6 +39,7 @@ npx eslint . --fix
 - [How to make a modal](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal)
 
 - [Create-react-app - ERROR in Plugin "react" was conflicted between ".eslintrc.json" and "BaseConfig"](https://stackoverflow.com/questions/70449712/create-react-app-error-in-plugin-react-was-conflicted-between-eslintrc-jso)
+- [Adding a website image thumbnail for sharing your HTML site successfully on social media](https://nickcarmont8.medium.com/how-to-add-a-website-thumbnail-for-sharing-your-html-site-on-social-media-facebook-linkedin-12813f8d2618)
 
 ## Authors
 
