@@ -13,7 +13,6 @@ function Header() {
       <div className="intro-container">
 
         <h1 className="title">Moises Hernandez</h1>
-        <div className="software-developer">Software Engineer</div>
         <p className="hello-i-am-a-softwar">
           Hello I am a software developer! I can help you build a
           product, featre or website. Look through some of my work and experience!
