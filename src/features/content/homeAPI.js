@@ -53,7 +53,7 @@ const projects = [
     images: [youtubeDetails, youtubeSubscription, youtubeTrendings, youtubeHome],
     source: 'https://github.com/Mhdez221993/youtube',
     live: 'https://mhdez-youtube.herokuapp.com/',
-    description: "This is my own youtube version. A fully functional application, that allows you upload videos and songs. You can like, comment and subscribe to others' uploads",
+    description: "This is my own youtube version. A fully functional application, that allows you to upload videos and songs. You can like, comment, and subscribe to others' uploads",
   },
   {
     title: 'Rubocop',
