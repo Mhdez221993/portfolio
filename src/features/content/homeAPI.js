@@ -62,7 +62,7 @@ const projects = [
     images: [rubocop4, rubocop2, rubocop3, rubocop1],
     source: 'https://github.com/Mhdez221993/rubocop',
     live: 'https://replit.com/join/nssqxwoaye-mhdez',
-    description: 'This project was built in ruby to check ruby code, it is a linters for beginners, it provides feedback about errors or warning in code little by little. It was developed following the best practices. In this project we are looking for the following errors: Wrong indentation Trailing spaces New line errorsEmpty files Last empty line',
+    description: 'This project was built in ruby to check ruby code, it is a linters for beginners, and it provides feedback about errors or warnings in code little by little. It was developed following the best practices. In this project we are looking for the following errors: The wrong indentation Trailing spaces New line error empty files Last empty line',
   },
   {
     title: 'Tic Tac Toe',
