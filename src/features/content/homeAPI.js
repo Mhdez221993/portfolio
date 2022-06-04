@@ -35,7 +35,7 @@ const projects = [
     images: [space1, space2, space3, space4],
     source: 'https://github.com/Mhdez221993/spacex_travelers_hub',
     live: 'https://magical-taffy-2adbc3.netlify.app',
-    description: "The Space Travelers' Hub consists of Rockets, Missions, and the My Profile section. Rockets /Dragons The Rockets section displays a list of all available SpaceX rockets. Users can book each rocket by clicking the reservation button or cancel the previously made booking. Missions The Missions section displays a list of current missions along with their brief description and participation status. My Profile The My Profile section displays all reserved rockets and space missions.",
+    description: "The Space Travelers' Hub consists of Rockets, Missions, and the My Profile section. Rockets /Dragons The Rockets section displays a list of all available SpaceX rockets. Users can book each rocket by clicking the reservation button or canceling the previously made booking. Missions The Missions section displays a list of current missions along with their brief description and participation status. My Profile The My Profile section displays all reserved rockets and space missions.",
   },
   {
     title: 'Dance club API',
@@ -53,7 +53,7 @@ const projects = [
     images: [youtubeDetails, youtubeSubscription, youtubeTrendings, youtubeHome],
     source: 'https://github.com/Mhdez221993/youtube',
     live: 'https://mhdez-youtube.herokuapp.com/',
-    description: "This is my own youtube version. A fully functional application, that allows you upload videos and songs. You can like, comment and subscribe to others' uploads",
+    description: "This is my own YouTube version. A fully functional application, that allows you to upload videos and songs. You can like, comment, and subscribe to others' uploads",
   },
   {
     title: 'Rubocop',
@@ -62,7 +62,7 @@ const projects = [
     images: [rubocop4, rubocop2, rubocop3, rubocop1],
     source: 'https://github.com/Mhdez221993/rubocop',
     live: 'https://replit.com/join/nssqxwoaye-mhdez',
-    description: 'This project was built in ruby to check ruby code, it is a linters for beginners, it provides feedback about errors or warning in code little by little. It was developed following the best practices. In this project we are looking for the following errors: Wrong indentation Trailing spaces New line errorsEmpty files Last empty line',
+    description: 'This project was built in ruby to check ruby code, it is a linters for beginners, and it provides feedback about errors or warnings in code little by little. It was developed following the best practices. In this project we are looking for the following errors: The wrong indentation Trailing spaces New line error empty files Last empty line',
   },
   {
     title: 'Tic Tac Toe',
