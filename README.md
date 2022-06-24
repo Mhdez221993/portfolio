@@ -63,4 +63,3 @@ Give a ⭐️ if you like this project!
 
 - To [Microverse](https://www.figma.com/file/t3EJUCAEViw3QasuJLPLVT/Microverse-Student-Potfolio-Templates-Main?node-id=23%3A11) for providinh design.
 - To my coding partner who helped me through all the work
-- To my Stand Up Team who kept my morale up!
