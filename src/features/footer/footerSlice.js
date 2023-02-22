@@ -1,21 +1,22 @@
-import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import fetchMessage from './footerAPI';
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+
+import fetchMessage from "./footerAPI";
 
 const initialState = {
   value: false,
-  status: 'idle',
+  status: "idle",
 };
 
 export const messageAsync = createAsyncThunk(
-  'message/fetchMessage',
+  "message/fetchMessage",
   async (message) => {
     const response = await fetchMessage(message);
     return response.data.ok;
-  },
+  }
 );
 
 export const footerSlice = createSlice({
-  name: 'message',
+  name: "message",
   initialState,
 
   reducers: {
@@ -25,11 +26,12 @@ export const footerSlice = createSlice({
   extraReducers: (builder) => {
     builder
       .addCase(messageAsync.pending, (state) => ({
-        ...state, status: 'loading',
+        ...state,
+        status: "loading",
       }))
 
       .addCase(messageAsync.fulfilled, (state, action) => ({
-        status: 'idle',
+        status: "idle",
         value: action.payload,
       }));
   },

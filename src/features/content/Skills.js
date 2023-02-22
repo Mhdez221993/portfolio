@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
 
 function Skills() {
   return (
     <div className="skills">
       <div className="skill">
         <div className="languages roboto-bold-scarpa-flow-22px">Languages</div>
-        <div className="languages roboto-normal-storm-gray-16px">JavaScript (ES5/ES6)</div>
+        <div className="languages roboto-normal-storm-gray-16px">
+          JavaScript (ES5/ES6)
+        </div>
         <div className="languages roboto-normal-storm-gray-16px">Ruby</div>
         <div className="languages roboto-normal-storm-gray-16px">HTML</div>
         <div className="languages roboto-normal-storm-gray-16px">CSS</div>
@@ -14,7 +16,9 @@ function Skills() {
       <div className="skill">
         <div className="languages roboto-bold-scarpa-flow-22px">Framewors</div>
         <div className="languages roboto-normal-storm-gray-16px">Boostrap</div>
-        <div className="languages roboto-normal-storm-gray-16px">Ruby on Rails</div>
+        <div className="languages roboto-normal-storm-gray-16px">
+          Ruby on Rails
+        </div>
         <div className="languages roboto-normal-storm-gray-16px">RSpec</div>
         <div className="languages roboto-normal-storm-gray-16px">Jest</div>
         <div className="languages roboto-normal-storm-gray-16px">Capybara</div>

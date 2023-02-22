@@ -1,12 +1,9 @@
-import PropTypes, { string } from 'prop-types';
-import React from 'react';
+import PropTypes, { string } from "prop-types";
+
+import React from "react";
 
 function MyPortfolio({ project, displayDitail }) {
-  const {
-    title,
-    techStack,
-    backgroundImage,
-  } = project;
+  const { title, techStack, backgroundImage } = project;
 
   return (
     <div
@@ -14,22 +11,27 @@ function MyPortfolio({ project, displayDitail }) {
       className="project"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-
-      <div className="soap-soap poppins-semi-bold-white-20px padding">{title}</div>
+      <div className="soap-soap poppins-semi-bold-white-20px padding">
+        {title}
+      </div>
       <div className="group-9 padding">
-        {
-          techStack.slice(1).map((stack) => (
-            <div
-              key={stack}
-              className="overlap-group1-1 poppins-medium-mystic-14px"
-            >
-              {stack}
-            </div>
-          ))
-        }
+        {techStack.slice(1).map((stack) => (
+          <div
+            key={stack}
+            className="overlap-group1-1 poppins-medium-mystic-14px"
+          >
+            {stack}
+          </div>
+        ))}
       </div>
       <div className="overlap-group-2">
-        <button onClick={displayDitail} type="button" className="see-the-project">See the project</button>
+        <button
+          onClick={displayDitail}
+          type="button"
+          className="see-the-project"
+        >
+          See the project
+        </button>
       </div>
     </div>
   );

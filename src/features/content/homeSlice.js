@@ -1,22 +1,23 @@
-import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import fetchProjects from './homeAPI';
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+
+import fetchProjects from "./homeAPI";
 
 const initialState = {
-  status: 'idle',
+  status: "idle",
   project: {},
   projects: [],
 };
 
 export const projectsAsync = createAsyncThunk(
-  'message/fetchProjects',
+  "message/fetchProjects",
   async () => {
     const response = await fetchProjects();
     return response;
-  },
+  }
 );
 
 export const homeSlice = createSlice({
-  name: 'message',
+  name: "message",
   initialState,
 
   reducers: {
@@ -24,11 +25,10 @@ export const homeSlice = createSlice({
   },
 
   extraReducers: (builder) => {
-    builder
-      .addCase(projectsAsync.fulfilled, (state, action) => ({
-        status: 'idle',
-        projects: action.payload,
-      }));
+    builder.addCase(projectsAsync.fulfilled, (state, action) => ({
+      status: "idle",
+      projects: action.payload,
+    }));
   },
 });
 
