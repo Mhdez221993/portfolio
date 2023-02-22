@@ -1,0 +1,26 @@
+name: Linters
+
+on: pull_request
+
+env:
+  FORCE_COLOR: 1
+
+jobs:
+  eslint:
+    name: ESLint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: npm ci
+      - name: Run Linters
+        run: npx eslint .
+  stylelint:
+    name: Stylelint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: npm ci
+      - name: Stylelint Report
+        run: npx stylelint "**/*.{css,scss}"

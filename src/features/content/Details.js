@@ -51,7 +51,6 @@ function Details({ setDisplayDitails }) {
             <div className="thomenail1">
               <button
                 className="thom-image"
-                s
                 type="button"
                 onClick={() => swapImages(state1, setState1)}
               >
