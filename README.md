@@ -4,7 +4,7 @@ Software Engineer | JavaScript, Rails, React, Redux | In love with pair-programm
 
 ![screetshot](./portfolio.PNG)
 
-## [Go Live](https://moises-hernandez.herokuapp.com/)
+## [Go Live](https://frabjous-douhua-569791.netlify.app/)
 
 ## Built With
 
