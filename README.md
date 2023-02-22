@@ -4,7 +4,7 @@ Software Engineer | JavaScript, Rails, React, Redux | In love with pair-programm
 
 ![screetshot](./portfolio.PNG)
 
-## <a href="https://frabjous-douhua-569791.netlify.app/" target="_blank">Go Live</a>
+## [Go Live](https://frabjous-douhua-569791.netlify.app/)
 
 ## Built With
 
