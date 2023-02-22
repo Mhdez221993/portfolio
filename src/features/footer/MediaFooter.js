@@ -15,7 +15,6 @@ function MediaFooter() {
       <a
         href="https://twitter.com/MoisesH42060050"
         target="_blank"
-        without="true"
         rel="noreferrer"
       >
         <img src={twitter} className="union" alt="union" />
@@ -24,7 +23,6 @@ function MediaFooter() {
       <a
         href="https://stackoverflow.com/users/14582840/moises-hernandez"
         target="_blank"
-        without="true"
         rel="noreferrer"
       >
         <img src={group32} className="union" alt="union" />
@@ -33,7 +31,6 @@ function MediaFooter() {
       <a
         href="https://angel.co/u/moises-hernandez-7"
         target="_blank"
-        without="true"
         rel="noreferrer"
       >
         <img src={group31} className="union" alt="union" />
@@ -42,7 +39,6 @@ function MediaFooter() {
       <a
         href="https://www.facebook.com/moises.hernandezcoronado"
         target="_blank"
-        without="true"
         rel="noreferrer"
       >
         <img src={facebook} className="union" alt="union" />
