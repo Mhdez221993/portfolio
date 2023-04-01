@@ -1,22 +1,22 @@
+import chartAdobe from "./images/chart/chart_adobe.jpeg";
+import chartAdobe1 from "./images/chart/chart_adobe1.jpeg";
+import chartView from "./images/chart/chart_view.PNG";
+import tableView from "./images/chart/table_view.PNG";
 import api1 from "./images/comic_dance/api1.jpg";
 import api3 from "./images/comic_dance/api3.jpg";
 import apiDocs1 from "./images/comic_dance/api_docs1.PNG";
 import apiDocs2 from "./images/comic_dance/api_docs2.PNG";
 import apiDocs3 from "./images/comic_dance/api_docs3.PNG";
-import chartAdobe from "./images/chart/chart_adobe.jpeg";
-import chartAdobe1 from "./images/chart/chart_adobe1.jpeg";
-import chartView from "./images/chart/chart_view.PNG";
 import linter1 from "./images/linter/linter1.jpeg";
-import rocket2 from "./images/space/rocket2.jpg";
 import rubocop1 from "./images/linter/rubocop1.PNG";
 import rubocop2 from "./images/linter/rubocop2.PNG";
 import rubocop3 from "./images/linter/rubocop3.PNG";
 import rubocop4 from "./images/linter/rubocop4.PNG";
+import rocket2 from "./images/space/rocket2.jpg";
 import space1 from "./images/space/space1.PNG";
 import space2 from "./images/space/space2.PNG";
 import space3 from "./images/space/space3.PNG";
 import space4 from "./images/space/space4.PNG";
-import tableView from "./images/chart/table_view.PNG";
 import ticTackToe1 from "./images/tic/tic_tac_toe1.jpeg";
 import ticTackToe2 from "./images/tic/tic_tac_toe2.jpeg";
 import ticTackToe3 from "./images/tic/tic_tac_toe3.PNG";
@@ -44,7 +44,7 @@ const projects = [
     backgroundImage: api3,
     images: [api1, apiDocs2, apiDocs3, apiDocs1],
     source: "https://github.com/Mhdez221993/dance_club_api",
-    live: "https://comic-dance-club.herokuapp.com/api-docs/index.html",
+    live: "",
     description:
       "This API offers service to a react application that books and displays dance class appointments. It was built in Ruby on Rails, has twelve end-points to manage resources, is tested with Rspec, and uses Swagger for documentation.",
   },
@@ -59,7 +59,7 @@ const projects = [
       youtubeHome,
     ],
     source: "https://github.com/Mhdez221993/youtube",
-    live: "https://mhdez-youtube.herokuapp.com/",
+    live: "",
     description:
       "This is my own YouTube version. A fully functional application, that allows you to upload videos and songs. You can like, comment, and subscribe to others' uploads",
   },
@@ -69,7 +69,7 @@ const projects = [
     backgroundImage: linter1,
     images: [rubocop4, rubocop2, rubocop3, rubocop1],
     source: "https://github.com/Mhdez221993/rubocop",
-    live: "https://replit.com/join/nssqxwoaye-mhdez",
+    live: "",
     description:
       "This project was built in ruby to check ruby code, it is a linters for beginners, and it provides feedback about errors or warnings in code little by little. It was developed following the best practices. In this project we are looking for the following errors: The wrong indentation Trailing spaces New line error empty files Last empty line",
   },
@@ -79,7 +79,7 @@ const projects = [
     backgroundImage: ticTackToe1,
     images: [ticTackToe2, ticTackToe3, ticTackToe4, ticTackToe5],
     source: "https://github.com/Mhdez221993/tic_tac_toe",
-    live: "https://replit.com/join/rsxlnjjqih-mhdez",
+    live: "",
     description:
       "A game in which two players alternately put Xs and Os in compartments of a figure formed by two vertical lines crossing two horizontal lines and each tries to get a row of three Xs or three Os before the opponent does. I would like to point out that, this project is built in pure Ruby no packages, no Genfile needed.",
   },
