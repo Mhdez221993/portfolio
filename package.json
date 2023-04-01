@@ -44,6 +44,11 @@
       "last 1 safari version"
     ]
   },
+  "jest": {
+    "moduleNameMapper": {
+      "axios": "axios/dist/node/axios.cjs"
+    }
+  },
   "devDependencies": {
     "eslint": "^8.34.0",
     "stylelint": "^15.2.0",

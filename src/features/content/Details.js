@@ -1,12 +1,12 @@
-import "./Details.css";
-
+import PropTypes from "prop-types";
 import React, { useState } from "react";
+import { useSelector } from "react-redux";
 
 import Fill4 from "./icons/Fill4.svg";
-import Group41 from "./icons/Group41.svg";
-import PropTypes from "prop-types";
 import group18 from "./icons/Group18.svg";
-import { useSelector } from "react-redux";
+import Group41 from "./icons/Group41.svg";
+
+import "./Details.css";
 
 function Details({ setDisplayDitails }) {
   // const image = 'https://github.com/Mhdez221993/portfolio/blob/main/src/features/home/icons/project.png?raw=true';
@@ -85,15 +85,17 @@ function Details({ setDisplayDitails }) {
                 <img src={Fill4} alt="Fill4" className="source-img" />
               </a>
 
-              <a
-                href={live}
-                target="_blank"
-                rel="noreferrer"
-                className="see-source"
-              >
-                See Live
-                <img src={Group41} alt="Group41" className="live-img" />
-              </a>
+              {live && (
+                <a
+                  href={live}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="see-source"
+                >
+                  See Live
+                  <img src={Group41} alt="Group41" className="live-img" />
+                </a>
+              )}
             </div>
           </div>
         </div>
