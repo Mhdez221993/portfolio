@@ -2,11 +2,11 @@ import chartAdobe from "./images/chart/chart_adobe.jpeg";
 import chartAdobe1 from "./images/chart/chart_adobe1.jpeg";
 import chartView from "./images/chart/chart_view.PNG";
 import tableView from "./images/chart/table_view.PNG";
-import api1 from "./images/comic_dance/api1.jpg";
-import api3 from "./images/comic_dance/api3.jpg";
 import apiDocs1 from "./images/comic_dance/api_docs1.PNG";
 import apiDocs2 from "./images/comic_dance/api_docs2.PNG";
 import apiDocs3 from "./images/comic_dance/api_docs3.PNG";
+import api1 from "./images/comic_dance/api1.jpg";
+import api3 from "./images/comic_dance/api3.jpg";
 import linter1 from "./images/linter/linter1.jpeg";
 import rubocop1 from "./images/linter/rubocop1.PNG";
 import rubocop2 from "./images/linter/rubocop2.PNG";
@@ -44,7 +44,7 @@ const projects = [
     backgroundImage: api3,
     images: [api1, apiDocs2, apiDocs3, apiDocs1],
     source: "https://github.com/Mhdez221993/dance_club_api",
-    live: "",
+    live: "https://comic-dance-club.herokuapp.com/api-docs/index.html",
     description:
       "This API offers service to a react application that books and displays dance class appointments. It was built in Ruby on Rails, has twelve end-points to manage resources, is tested with Rspec, and uses Swagger for documentation.",
   },
