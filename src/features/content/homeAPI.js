@@ -38,6 +38,10 @@ import newsweek1 from "./images/newsweek/newsweek-1.PNG";
 import newsweek2 from "./images/newsweek/newsweek-2.PNG";
 import newsweek3 from "./images/newsweek/newsweek-3.PNG";
 import newsweek4 from "./images/newsweek/newsweek-4.PNG";
+import vegas1 from "./images/vegas/vegas-1.PNG";
+import vegas2 from "./images/vegas/vegas-2.PNG";
+import vegas3 from "./images/vegas/vegas-3.PNG";
+import vegas4 from "./images/vegas/vegas-4.PNG";
 
 const projects = [
   {
@@ -134,6 +138,16 @@ const projects = [
     live: "https://mhdez221993.github.io/tnw-clone/",
     description:
       "This project is a clone of The Next Web website. The primary goal is to master CSS and HTML technologies by replicating a responsive version of the archived website. The design focuses on responsiveness and ensuring the site adapts seamlessly to different screen sizes, including mobile and desktop.",
+  },
+  {
+    title: "VegasCrest Casino",
+    techStack: ["HTML5", "CSS3"],
+    backgroundImage: vegas1,
+    images: [vegas2, vegas3, vegas4, vegas1],
+    source: "https://github.com/Mhdez221993/VegasCrest",
+    live: "https://mhdez221993.github.io/VegasCrest/",
+    description:
+      "This is a promotional dashboard for VegasCrest Casino, showcasing various offers and bonuses for players. The project focuses on learning and implementing key web development concepts such as CSS Grid Layout, Flexbox, and responsive design with three breakpoints to ensure optimal usability across mobile, tablet, and desktop devices.",
   }
 ];
 
