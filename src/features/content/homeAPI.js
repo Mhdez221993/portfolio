@@ -50,6 +50,10 @@ import math1 from "./images/math/math-1.PNG";
 import math2 from "./images/math/math-2.PNG";
 import math3 from "./images/math/math-3.PNG";
 import math4 from "./images/math/math-4.PNG";
+import breakfast1 from "./images/breakfast/breakfast-1.PNG";
+import breakfast2 from "./images/breakfast/breakfast-2.PNG";
+import breakfast3 from "./images/breakfast/breakfast-3.PNG";
+import breakfast4 from "./images/breakfast/breakfast-4.PNG";
 
 const projects = [
   {
@@ -176,6 +180,16 @@ const projects = [
     live: "https://mhdez221993.github.io/math_magicians/#/",
     description:
       "This is a calculator app that provides simple mathematical functions in a beautifully designed interface. Users can perform basic calculations such as addition, subtraction, multiplication, and division. The primary purpose of this project was to learn how to build multiple pages in React and test these pages thoroughly using Jest.",
+  },
+  {
+    title: "The Breakfast Guide",
+    techStack: ["WordPress", "HTML", "CSS", "GenerateBlocks", "CDN"],
+    backgroundImage: breakfast1,
+    images: [breakfast1, breakfast2, breakfast3, breakfast4],
+    source: "https://thebreakfastguide.com/about/",
+    live: "https://thebreakfastguide.com/",
+    description:
+      "The Breakfast Guide is a website dedicated to breakfast enthusiasts, currently under development. I built the site independently using WordPress and GenerateBlocks, incorporating custom CSS for a unique design. Content creation, including photography and writing, is a collaborative effort with my wife. I conducted keyword research using Ahrefs to optimize SEO, set up a Content Delivery Network (CDN) for enhanced performance, and installed necessary themes and plugins to ensure a seamless user experience. This project demonstrates my skills in web development, design, content creation, and SEO optimization.",
   }
 ];
 
