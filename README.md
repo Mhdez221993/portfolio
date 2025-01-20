@@ -4,7 +4,7 @@ Software Engineer | JavaScript, Rails, React, Redux | In love with pair-programm
 
 ![screetshot](./portfolio.PNG)
 
-## [Go Live](https://moises-porfolio.netlify.app/)
+## [Go Live](https://mhdez221993.github.io/portfolio/)
 
 ## Built With
 
