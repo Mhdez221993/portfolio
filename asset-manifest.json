@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.69a1991f.css",
-    "main.js": "/portfolio/static/js/main.d40f24b5.js",
+    "main.js": "/portfolio/static/js/main.74c5697e.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/chart_adobe1.jpeg": "/portfolio/static/media/chart_adobe1.fbeac760bf7a8ea2958e.jpeg",
     "static/media/tic_tac_toe2.jpeg": "/portfolio/static/media/tic_tac_toe2.e53dc6ab66e34efbf37c.jpeg",
@@ -10,6 +10,8 @@
     "static/media/newsweek-2.PNG": "/portfolio/static/media/newsweek-2.3ff665dff27011502c6d.PNG",
     "static/media/ninja-1.PNG": "/portfolio/static/media/ninja-1.79c2f29b5e75c2558a33.PNG",
     "static/media/vegas-2.PNG": "/portfolio/static/media/vegas-2.515735e2788772b716bc.PNG",
+    "static/media/breakfast-1.PNG": "/portfolio/static/media/breakfast-1.0706943c830e8fec8550.PNG",
+    "static/media/breakfast-2.PNG": "/portfolio/static/media/breakfast-2.c2537aa6a3b4879eef45.PNG",
     "static/media/vegas-1.PNG": "/portfolio/static/media/vegas-1.95efb05ac2d28171812a.PNG",
     "static/media/tnw-1.PNG": "/portfolio/static/media/tnw-1.f5a8645f7ac74f7a9e84.PNG",
     "static/media/newsweek-1.PNG": "/portfolio/static/media/newsweek-1.3b4d473aff92440276a7.PNG",
@@ -17,6 +19,7 @@
     "static/media/face-4.PNG": "/portfolio/static/media/face-4.396a4b00a6a1d7ea2e40.PNG",
     "static/media/face-1.PNG": "/portfolio/static/media/face-1.fbf5221d900a53800d40.PNG",
     "static/media/face-3.PNG": "/portfolio/static/media/face-3.7cefa1266ddbac9d1e16.PNG",
+    "static/media/breakfast-3.PNG": "/portfolio/static/media/breakfast-3.2447bbb283f3aa4d2668.PNG",
     "static/media/tnw-4.PNG": "/portfolio/static/media/tnw-4.1530dea2337f2040908f.PNG",
     "static/media/newsweek-4.PNG": "/portfolio/static/media/newsweek-4.23ae1108d931ad674b7e.PNG",
     "static/media/tnw-2.PNG": "/portfolio/static/media/tnw-2.7cb67afc8ef9a65fb280.PNG",
@@ -28,6 +31,7 @@
     "static/media/vegas-3.PNG": "/portfolio/static/media/vegas-3.47feb369cb62dc9b70e0.PNG",
     "static/media/youtube_home.PNG": "/portfolio/static/media/youtube_home.dfd67b0b56947431a23b.PNG",
     "static/media/tnw-3.PNG": "/portfolio/static/media/tnw-3.dd7de79af34d25b37479.PNG",
+    "static/media/breakfast-4.PNG": "/portfolio/static/media/breakfast-4.0a7e7815d0a9bbc5a269.PNG",
     "static/media/youtube_details.PNG": "/portfolio/static/media/youtube_details.639220692e5b99f027b9.PNG",
     "static/media/space1.PNG": "/portfolio/static/media/space1.cda1d21668455034302b.PNG",
     "static/media/space3.PNG": "/portfolio/static/media/space3.ac0429a0f83b571ed68a.PNG",
@@ -69,11 +73,11 @@
     "static/media/Group41.svg": "/portfolio/static/media/Group41.960ec9c0a65648ae67750cc98a2b1a88.svg",
     "static/media/Group18.svg": "/portfolio/static/media/Group18.641487d2216b20c39d9c6e076bf86feb.svg",
     "main.69a1991f.css.map": "/portfolio/static/css/main.69a1991f.css.map",
-    "main.d40f24b5.js.map": "/portfolio/static/js/main.d40f24b5.js.map",
+    "main.74c5697e.js.map": "/portfolio/static/js/main.74c5697e.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69a1991f.css",
-    "static/js/main.d40f24b5.js"
+    "static/js/main.74c5697e.js"
   ]
 }
