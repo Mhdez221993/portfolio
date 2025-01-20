@@ -40,7 +40,7 @@ const projects = [
     source: "https://github.com/Mhdez221993/css-ninja",
     live: "https://mhdez221993.github.io/css-ninja/index.html",
     description:
-      "This project is based on an online website to learn CSS. It contains a fully responsive design, including the main page, about page, and tickets page, each optimized for two different screen sizes: mobile and desktop.",
+      "The goal of CSS Ninja is to explore and implement CSS fundamentals through hands-on experience. This project emphasizes responsive design, layout techniques, and creating visually appealing components tailored to different screen sizes. It consists of multiple pages, each styled for optimal performance on mobile and desktop devices.",
   },
   {
     title: "Space Travelers's Hub",
