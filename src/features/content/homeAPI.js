@@ -42,6 +42,10 @@ import vegas1 from "./images/vegas/vegas-1.PNG";
 import vegas2 from "./images/vegas/vegas-2.PNG";
 import vegas3 from "./images/vegas/vegas-3.PNG";
 import vegas4 from "./images/vegas/vegas-4.PNG";
+import face1 from "./images/face/face-1.PNG";
+import face2 from "./images/face/face-2.PNG";
+import face3 from "./images/face/face-3.PNG";
+import face4 from "./images/face/face-4.PNG";
 
 const projects = [
   {
@@ -148,6 +152,16 @@ const projects = [
     live: "https://mhdez221993.github.io/VegasCrest/",
     description:
       "This is a promotional dashboard for VegasCrest Casino, showcasing various offers and bonuses for players. The project focuses on learning and implementing key web development concepts such as CSS Grid Layout, Flexbox, and responsive design with three breakpoints to ensure optimal usability across mobile, tablet, and desktop devices.",
+  },
+  {
+    title: "Face Detection",
+    techStack: ["HTML", "JavaScript"],
+    backgroundImage: face1,
+    images: [face1, face2, face3, face4],
+    source: "https://github.com/Mhdez221993/face_detection",
+    live: "https://mhdez221993.github.io/face_detection/",
+    description:
+      "This is a real-time face detection application built using face-api.js and JavaScript. The project utilizes a webcam feed to detect faces, showcasing how modern face detection models can be applied directly in the browser. The primary purpose of this project was to master the use of APIs and their integration into web applications.",
   }
 ];
 
