@@ -30,6 +30,10 @@ import ninja1 from "./images/ninja/ninja-1.PNG";
 import ninja2 from "./images/ninja/ninja-2.PNG";
 import ninja3 from "./images/ninja/ninja-3.PNG";
 import ninja4 from "./images/ninja/ninja-4.PNG";
+import tnw1 from "./images/tnw/tnw-1.PNG";
+import tnw2 from "./images/tnw/tnw-2.PNG";
+import tnw3 from "./images/tnw/tnw-3.PNG";
+import tnw4 from "./images/tnw/tnw-4.PNG";
 
 const projects = [
   {
@@ -106,6 +110,16 @@ const projects = [
     live: "https://wonderful-fenglisu-f68b01.netlify.app",
     description:
       "This is a Vue project designed to track crypto coin prices. You can see the prices in the Bar chart or table mode. Also, you can interact with the table, which is multicolumn sorting or preferer to find a specific price or date, you can filter by custom input.",
+  },
+  {
+    title: "Tnw Clone",
+    techStack: ["HTML", "CSS"],
+    backgroundImage: tnw3,
+    images: [tnw1, tnw2, tnw3, tnw4],
+    source: "https://github.com/Mhdez221993/tnw-clone",
+    live: "https://mhdez221993.github.io/tnw-clone/",
+    description:
+      "This project is a clone of The Next Web website. The primary goal is to master CSS and HTML technologies by replicating a responsive version of the archived website. The design focuses on responsiveness and ensuring the site adapts seamlessly to different screen sizes, including mobile and desktop.",
   },
 ];
 
