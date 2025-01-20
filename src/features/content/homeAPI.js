@@ -34,8 +34,22 @@ import tnw1 from "./images/tnw/tnw-1.PNG";
 import tnw2 from "./images/tnw/tnw-2.PNG";
 import tnw3 from "./images/tnw/tnw-3.PNG";
 import tnw4 from "./images/tnw/tnw-4.PNG";
+import newsweek1 from "./images/newsweek/newsweek-1.PNG";
+import newsweek2 from "./images/newsweek/newsweek-2.PNG";
+import newsweek3 from "./images/newsweek/newsweek-3.PNG";
+import newsweek4 from "./images/newsweek/newsweek-4.PNG";
 
 const projects = [
+  {
+    title: "Newsweek Clone",
+    techStack: ["HTML5", "CSS3", "Bootstrap"],
+    backgroundImage: newsweek1,
+    images: [newsweek1, newsweek2, newsweek3, newsweek4],
+    source: "https://github.com/Mhdez221993/newsweek-clone",
+    live: "https://mhdez221993.github.io/newsweek-clone/",
+    description:
+      "This is a clone of an archived homepage of the Newsweek from 20 January, 2021. The initial build of this project contains the header and the footer sections. The main goal of this project is to learn how to use the Bootstrap framework, specifically its responsive design features.",
+  },
   {
     title: "Css Ninja",
     techStack: ["HTML", "CSS", "Bootstrap"],
@@ -120,7 +134,7 @@ const projects = [
     live: "https://mhdez221993.github.io/tnw-clone/",
     description:
       "This project is a clone of The Next Web website. The primary goal is to master CSS and HTML technologies by replicating a responsive version of the archived website. The design focuses on responsiveness and ensuring the site adapts seamlessly to different screen sizes, including mobile and desktop.",
-  },
+  }
 ];
 
 const fetchProjects = () =>
