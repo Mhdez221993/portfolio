@@ -26,8 +26,22 @@ import youtubeDetails from "./images/youtube/youtube_details.PNG";
 import youtubeHome from "./images/youtube/youtube_home.PNG";
 import youtubeSubscription from "./images/youtube/youtube_subscriptions.PNG";
 import youtubeTrendings from "./images/youtube/youtube_trendings.PNG";
+import ninja1 from "./images/ninja/ninja-1.PNG";
+import ninja2 from "./images/ninja/ninja-2.PNG";
+import ninja3 from "./images/ninja/ninja-3.PNG";
+import ninja4 from "./images/ninja/ninja-4.PNG";
 
 const projects = [
+  {
+    title: "Css Ninja",
+    techStack: ["HTML", "CSS", "Bootstrap"],
+    backgroundImage: ninja1,
+    images: [ninja3, ninja4, ninja2, ninja1],
+    source: "https://github.com/Mhdez221993/css-ninja",
+    live: "https://mhdez221993.github.io/css-ninja/index.html",
+    description:
+      "This project is based on an online website to learn CSS. It contains a fully responsive design, including the main page, about page, and tickets page, each optimized for two different screen sizes: mobile and desktop.",
+  },
   {
     title: "Space Travelers's Hub",
     techStack: ["HTML/SCSS", "React", "Redux", "Jest"],
