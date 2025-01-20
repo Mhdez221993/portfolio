@@ -46,6 +46,10 @@ import face1 from "./images/face/face-1.PNG";
 import face2 from "./images/face/face-2.PNG";
 import face3 from "./images/face/face-3.PNG";
 import face4 from "./images/face/face-4.PNG";
+import math1 from "./images/math/math-1.PNG";
+import math2 from "./images/math/math-2.PNG";
+import math3 from "./images/math/math-3.PNG";
+import math4 from "./images/math/math-4.PNG";
 
 const projects = [
   {
@@ -162,6 +166,16 @@ const projects = [
     live: "https://mhdez221993.github.io/face_detection/",
     description:
       "This is a real-time face detection application built using face-api.js and JavaScript. The project utilizes a webcam feed to detect faces, showcasing how modern face detection models can be applied directly in the browser. The primary purpose of this project was to master the use of APIs and their integration into web applications.",
+  },
+  {
+    title: "Math Magicians",
+    techStack: ["JavaScript", "React", "HTML/SCSS", "Jest"],
+    backgroundImage: math2,
+    images: [math1, math2, math3, math4],
+    source: "https://github.com/Mhdez221993/math_magicians",
+    live: "https://mhdez221993.github.io/math_magicians/#/",
+    description:
+      "This is a calculator app that provides simple mathematical functions in a beautifully designed interface. Users can perform basic calculations such as addition, subtraction, multiplication, and division. The primary purpose of this project was to learn how to build multiple pages in React and test these pages thoroughly using Jest.",
   }
 ];
 
