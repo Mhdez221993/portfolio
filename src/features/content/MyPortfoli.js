@@ -11,7 +11,7 @@ function MyPortfolio({ project, displayDitail }) {
       className="project"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      <div className="soap-soap poppins-semi-bold-white-20px padding">
+      <div className="soap-soap poppins-semi-bold-white-20px padding project-title">
         {title}
       </div>
       <div className="group-9 padding">

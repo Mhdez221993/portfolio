@@ -155,6 +155,10 @@
   border-radius: 15px;
 }
 
+.project-title {
+  background-color: var(--storm-gray);
+}
+
 .overlap-group-2 {
   background-color: var(--royal-blue);
   border-radius: 60px;
