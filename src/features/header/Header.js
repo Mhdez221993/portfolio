@@ -10,10 +10,7 @@ function Header() {
       <div className="intro-container">
         <h1 className="title">Moises Hernandez</h1>
         <p className="hello-i-am-a-softwar">
-          Hello I am a software developer! I can help you build a product,
-          featre or website. Look through some of my work and experience! If you
-          like what you see and have project you need coded, don’t hesistate to
-          contact me.
+        I’m a motivated junior web developer excited about transforming ideas into functional, visually appealing websites. I’ve honed my skills in modern front-end technologies and back-end development, focusing on clean code and intuitive user experiences. If you have a project in mind—or just need a fresh perspective—feel free to explore my work and let’s chat about how we can collaborate.
         </p>
 
         <MediaHeader />

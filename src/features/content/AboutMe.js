@@ -6,15 +6,9 @@ function AboutMe() {
     <div className="about-me-wrapper" id="about">
       <div className="about-me roboto-bold-scarpa-flow-28px">About me</div>
       <p className="in-three-sentences-d roboto-normal-storm-gray-16px">
-        Hi there! my name is Moises I&apos;m a full-stack software engineer.
-        Specializing in using Ruby on Rails, Javascript, and React to build
-        software solutions and web applications. I&apos;m a self-motivated
-        learner fluent in Spanish and English and currently learning Italian.
-        I&apos;m a pair programming, remote work enthusiast, and a good team
-        player.
-        <br />
-        You can find me solving algorithms, contributing on Github, or just
-        cooking some pasta.
+      Hi there! I’m Moises, specializing in building software solutions and web applications with Ruby on Rails, JavaScript, and React. I’m a self-motivated learner fluent in Spanish and English, and currently picking up Italian. Pair programming, remote work, and teamwork are my jam—there’s nothing like tackling problems together.
+      <br />
+      When I’m not solving algorithms or contributing on GitHub, you can usually find me cooking up some pasta.
       </p>
       <DownloadResume />
     </div>
