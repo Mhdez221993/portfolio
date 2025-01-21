@@ -9,7 +9,7 @@ describe("app render conrrectly", () => {
     const { getByText } = render(
       <Provider store={store}>
         <App />
-      </Provider>
+      </Provider>,
     );
 
     expect(getByText(/junior web developer/i)).toBeInTheDocument();

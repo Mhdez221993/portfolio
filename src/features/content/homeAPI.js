@@ -192,7 +192,7 @@ const projects = [
     live: "https://thebreakfastguide.com/",
     description:
       "The Breakfast Guide is a website dedicated to breakfast enthusiasts, currently under development. I built the site independently using WordPress and GenerateBlocks, incorporating custom CSS for a unique design. Content creation, including photography and writing, is a collaborative effort with my wife. I conducted keyword research using Ahrefs to optimize SEO, set up a Content Delivery Network (CDN) for enhanced performance, and installed necessary themes and plugins to ensure a seamless user experience. This project demonstrates my skills in web development, design, content creation, and SEO optimization.",
-  }
+  },
 ];
 
 const fetchProjects = () =>

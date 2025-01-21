@@ -13,7 +13,7 @@ export const projectsAsync = createAsyncThunk(
   async () => {
     const response = await fetchProjects();
     return response;
-  }
+  },
 );
 
 export const homeSlice = createSlice({

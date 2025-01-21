@@ -12,7 +12,7 @@ function Details({ setDisplayDitails }) {
   // const image = 'https://github.com/Mhdez221993/portfolio/blob/main/src/features/home/icons/project.png?raw=true';
 
   const { title, techStack, images, description, live, source } = useSelector(
-    ({ home }) => home.project
+    ({ home }) => home.project,
   );
 
   const [state, setState] = useState(images[0]);

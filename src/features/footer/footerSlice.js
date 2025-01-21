@@ -12,7 +12,7 @@ export const messageAsync = createAsyncThunk(
   async (message) => {
     const response = await fetchMessage(message);
     return response.data.ok;
-  }
+  },
 );
 
 export const footerSlice = createSlice({
