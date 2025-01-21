@@ -1,6 +1,6 @@
 # Moises Hernandez Coronado
 
-Software Engineer | JavaScript, Rails, React, Redux | In love with pair-programming, JavaScript, Ruby on Rails, and remote work.
+Software Developer | JavaScript, Rails, React, Redux | In love with pair-programming, JavaScript, Ruby on Rails, and remote work.
 
 ![screetshot](./portfolio.PNG)
 
@@ -17,12 +17,6 @@ Software Engineer | JavaScript, Rails, React, Redux | In love with pair-programm
 To get a local copy up and running follow these simple example steps.
 
 Run in your terminal `git clone git@github.com:Mhdez221993/portfolio.git`
-
-## Run some test
-
-```
-rspec spec --format documentation
-```
 
 ## Check linters and fix them
 
@@ -41,7 +35,7 @@ npx eslint . --fix
 - [Create-react-app - ERROR in Plugin "react" was conflicted between ".eslintrc.json" and "BaseConfig"](https://stackoverflow.com/questions/70449712/create-react-app-error-in-plugin-react-was-conflicted-between-eslintrc-jso)
 - [Adding a website image thumbnail for sharing your HTML site successfully on social media](https://nickcarmont8.medium.com/how-to-add-a-website-thumbnail-for-sharing-your-html-site-on-social-media-facebook-linkedin-12813f8d2618)
 
-## Authors
+## Author
 
 👤 **Moises Hernandez**
 
