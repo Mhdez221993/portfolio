@@ -92,7 +92,8 @@ const projects = [
     backgroundImage: api3,
     images: [api1, apiDocs2, apiDocs3, apiDocs1],
     source: "https://github.com/Mhdez221993/dance_club_api",
-    live: "https://comic-dance-club.herokuapp.com/api-docs/index.html",
+    live: "",
+    // live: "https://comic-dance-club.herokuapp.com/api-docs/index.html",
     description:
       "This API offers service to a react application that books and displays dance class appointments. It was built in Ruby on Rails, has twelve end-points to manage resources, is tested with Rspec, and uses Swagger for documentation.",
   },
@@ -107,7 +108,8 @@ const projects = [
       youtubeHome,
     ],
     source: "https://github.com/Mhdez221993/youtube",
-    live: "https://mhdez-youtube.herokuapp.com/",
+    live: "",
+    // live: "https://mhdez-youtube.herokuapp.com/",
     description:
       "This is my own YouTube version. A fully functional application, that allows you to upload videos and songs. You can like, comment, and subscribe to others' uploads",
   },
