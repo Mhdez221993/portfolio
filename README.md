@@ -2,7 +2,7 @@
 
 Software Developer | JavaScript, Rails, React, Redux | In love with pair-programming, JavaScript, Ruby on Rails, and remote work.
 
-![screetshot](./portfolio.PNG)
+![screetshot](./portfolio.png)
 
 ## [Go Live](https://mhdez221993.github.io/portfolio/)
 
