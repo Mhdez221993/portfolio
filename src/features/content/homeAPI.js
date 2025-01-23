@@ -22,10 +22,6 @@ import ticTackToe2 from "./images/tic/tic_tac_toe2.jpeg";
 import ticTackToe3 from "./images/tic/tic_tac_toe3.PNG";
 import ticTackToe4 from "./images/tic/tic_tac_toe4.PNG";
 import ticTackToe5 from "./images/tic/tic_tac_toe5.PNG";
-import youtubeDetails from "./images/youtube/youtube_details.PNG";
-import youtubeHome from "./images/youtube/youtube_home.PNG";
-import youtubeSubscription from "./images/youtube/youtube_subscriptions.PNG";
-import youtubeTrendings from "./images/youtube/youtube_trendings.PNG";
 import ninja1 from "./images/ninja/ninja-1.PNG";
 import ninja2 from "./images/ninja/ninja-2.PNG";
 import ninja3 from "./images/ninja/ninja-3.PNG";
@@ -96,22 +92,6 @@ const projects = [
     // live: "https://comic-dance-club.herokuapp.com/api-docs/index.html",
     description:
       "This API offers service to a react application that books and displays dance class appointments. It was built in Ruby on Rails, has twelve end-points to manage resources, is tested with Rspec, and uses Swagger for documentation.",
-  },
-  {
-    title: "YouTube",
-    techStack: ["Express", "Node.js", "PostgreSQL", "React"],
-    backgroundImage: youtubeDetails,
-    images: [
-      youtubeDetails,
-      youtubeSubscription,
-      youtubeTrendings,
-      youtubeHome,
-    ],
-    source: "https://github.com/Mhdez221993/youtube",
-    live: "",
-    // live: "https://mhdez-youtube.herokuapp.com/",
-    description:
-      "This is my own YouTube version. A fully functional application, that allows you to upload videos and songs. You can like, comment, and subscribe to others' uploads",
   },
   {
     title: "Rubocop",
