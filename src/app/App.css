@@ -1,3 +1,11 @@
+html, body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 #root {
   height: 100%;
   width: 100%;

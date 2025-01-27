@@ -54,7 +54,6 @@ function Content() {
               backgroundSize: "contain",
               backgroundRepeat: "no-repeat",
               textDecoration: "none",
-              backgroundPosition: "center",
               display: "block",
             }}
           ></a>
