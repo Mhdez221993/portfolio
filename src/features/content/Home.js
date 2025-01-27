@@ -14,7 +14,6 @@ function Content() {
 
   const [ditail, setDisplayDitails] = useState(false);
   const { projects, components } = useSelector(({ home }) => home);
-  console.log(components);
 
   const displayDitail = (project) => {
     dispatch(setProject(project));
@@ -43,16 +42,22 @@ function Content() {
       </div>
 
       <div className="components">
-        {components.map(({ title, backgroundImage }) => (
-          <div
+        {components.map(({ title, backgroundImage, link }) => (
+          <a
             key={title}
             className="component"
+            href={link}
+            rel="noopener noreferrer"
+            target="_blank"
             style={{
               backgroundImage: `url(${backgroundImage})`,
               backgroundSize: "contain",
               backgroundRepeat: "no-repeat",
+              textDecoration: "none",
+              backgroundPosition: "center",
+              display: "block",
             }}
-          ></div>
+          ></a>
         ))}
       </div>
 
