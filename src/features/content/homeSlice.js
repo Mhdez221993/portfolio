@@ -1,37 +1,46 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import fetchComponents from "./componentsAPI";
+import fetchProjects from "./projectsAPI"; // Assuming you have a similar API for projects
 
-import fetchProjects from "./homeAPI";
-
-const initialState = {
-  status: "idle",
-  project: {},
-  projects: [],
-};
+export const componentsAsync = createAsyncThunk(
+  "home/fetchComponents",
+  async () => {
+    const response = await fetchComponents();
+    return response;
+  },
+);
 
 export const projectsAsync = createAsyncThunk(
-  "message/fetchProjects",
+  "home/fetchProjects",
   async () => {
     const response = await fetchProjects();
     return response;
   },
 );
 
-export const homeSlice = createSlice({
-  name: "message",
-  initialState,
-
-  reducers: {
-    setProject: (state, action) => ({ ...state, project: action.payload }),
+const homeSlice = createSlice({
+  name: "home",
+  initialState: {
+    components: [],
+    projects: [],
+    selectedProject: null,
   },
-
+  reducers: {
+    setProject: (state, action) => {
+      state.selectedProject = action.payload;
+    },
+  },
   extraReducers: (builder) => {
-    builder.addCase(projectsAsync.fulfilled, (state, action) => ({
-      status: "idle",
-      projects: action.payload,
-    }));
+    builder
+      .addCase(componentsAsync.fulfilled, (state, action) => {
+        state.components = action.payload;
+      })
+      .addCase(projectsAsync.fulfilled, (state, action) => {
+        state.projects = action.payload;
+      });
   },
 });
 
-export const { setProject, setProjects } = homeSlice.actions;
+export const { setProject } = homeSlice.actions;
 
 export default homeSlice.reducer;
