@@ -17,7 +17,7 @@ function Footer() {
       <div className="vector" />
 
       <div className="copyright roboto-normal-periwinkle-16px">
-        © 2023&nbsp;&nbsp;Moises Hernandez
+        © 2025&nbsp;&nbsp;Moises Hernandez
       </div>
     </div>
   );
