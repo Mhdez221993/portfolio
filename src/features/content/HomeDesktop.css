@@ -464,6 +464,17 @@
   color: var(--royal-blue);
 }
 
+.components {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 50px;
+  gap: 10px;
+}
+
+.component {
+  height: 150px;
+}
+
 @media only screen and (max-width: 601px) {
   .title {
     font-size: var(--font-size-xxl);
@@ -525,11 +536,20 @@
   .interested-in-collaborating {
     font-size: var(--font-size-xl);
   }
+
+  .components {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media only screen and (min-width: 1174px) {
   .footer {
     background-size: 100%;
+  }
+
+  .components {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
@@ -553,6 +573,11 @@
 
   .copyright {
     text-align: center;
+  }
+
+  .components {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 
