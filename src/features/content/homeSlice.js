@@ -24,11 +24,10 @@ const homeSlice = createSlice({
     components: [],
     projects: [],
     selectedProject: null,
+    project: {},
   },
   reducers: {
-    setProject: (state, action) => {
-      state.selectedProject = action.payload;
-    },
+    setProject: (state, action) => ({ ...state, project: action.payload }),
   },
   extraReducers: (builder) => {
     builder
