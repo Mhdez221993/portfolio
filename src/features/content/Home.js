@@ -51,10 +51,6 @@ function Content() {
             target="_blank"
             style={{
               backgroundImage: `url(${backgroundImage})`,
-              backgroundSize: "contain",
-              backgroundRepeat: "no-repeat",
-              textDecoration: "none",
-              display: "block",
             }}
           ></a>
         ))}
