@@ -473,8 +473,13 @@
 }
 
 .component {
-  height: 150px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
 }
+
 
 @media only screen and (max-width: 601px) {
   .title {
