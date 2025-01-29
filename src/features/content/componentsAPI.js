@@ -1,15 +1,21 @@
 const components = [
   {
-    title: "User Testimonial Card",
+    title: "Testimonial Card",
     backgroundImage:
-      "https://github.com/Mhdez221993/testimonial-card/blob/main/img/card.png?raw=true",
+      "https://github.com/Mhdez221993/testimonial-card/blob/main/designs/Mobile.jpg?raw=true",
     link: "https://mhdez221993.github.io/testimonial-card/",
   },
   {
-    title: "Blog card",
+    title: "Blog Card",
     backgroundImage:
-      "https://github.com/Mhdez221993/blog-card/blob/main/img/card.png?raw=true",
+      "https://github.com/Mhdez221993/blog-card/blob/main/designs/Desktop.jpg?raw=true",
     link: "https://github.com/Mhdez221993/blog-card",
+  },
+  {
+    title: "Profile Card",
+    backgroundImage:
+      "https://github.com/Mhdez221993/profile-card/blob/main/designs/Mobile.jpg?raw=true",
+    link: "https://github.com/Mhdez221993/profile-card",
   },
 ];
 
