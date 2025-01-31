@@ -17,6 +17,12 @@ const components = [
       "https://github.com/Mhdez221993/profile-card/blob/main/designs/Mobile.jpg?raw=true",
     link: "https://github.com/Mhdez221993/profile-card",
   },
+  {
+    title: "Hero Section",
+    backgroundImage:
+      "https://github.com/Mhdez221993/hero-section/blob/main/designs/Mobile.jpg?raw=true",
+    link: "https://github.com/Mhdez221993/profile-card",
+  },
 ];
 
 const fetchComponents = () =>
