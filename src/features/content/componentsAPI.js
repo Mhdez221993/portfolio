@@ -9,19 +9,19 @@ const components = [
     title: "Blog Card",
     backgroundImage:
       "https://github.com/Mhdez221993/blog-card/blob/main/designs/Desktop.jpg?raw=true",
-    link: "https://github.com/Mhdez221993/blog-card",
+    link: "https://mhdez221993.github.io/blog-card",
   },
   {
     title: "Profile Card",
     backgroundImage:
       "https://github.com/Mhdez221993/profile-card/blob/main/designs/Mobile.jpg?raw=true",
-    link: "https://github.com/Mhdez221993/profile-card",
+    link: "https://mhdez221993.github.io/profile-card",
   },
   {
     title: "Hero Section",
     backgroundImage:
       "https://github.com/Mhdez221993/hero-section/blob/main/designs/Mobile.jpg?raw=true",
-    link: "https://github.com/Mhdez221993/profile-card",
+    link: "https://mhdez221993.github.io/hero-section",
   },
 ];
 
