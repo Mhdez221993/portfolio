@@ -3,7 +3,7 @@ import PropTypes, { string } from "prop-types";
 import React from "react";
 
 function MyPortfolio({ project, displayDitail }) {
-  const { title, techStack, backgroundImage } = project;
+  const { title, backgroundImage } = project;
 
   return (
     <div

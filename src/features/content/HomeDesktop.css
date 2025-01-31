@@ -483,7 +483,7 @@
 }
 
 .bg-cards {
-  background-image: linear-gradient(var(--gradientTop), var(--gradientBottom));
+  background-image: linear-gradient(#f9fafb, #d2d6db);
 }
 
 @media only screen and (max-width: 601px) {
