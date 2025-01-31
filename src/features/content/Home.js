@@ -45,7 +45,7 @@ function Content() {
         {components.map(({ title, backgroundImage, link }) => (
           <a
             key={title}
-            className="component"
+            className="component bg-cards"
             href={link}
             rel="noopener noreferrer"
             target="_blank"

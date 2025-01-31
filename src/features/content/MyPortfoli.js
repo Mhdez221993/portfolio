@@ -8,13 +8,13 @@ function MyPortfolio({ project, displayDitail }) {
   return (
     <div
       key={title}
-      className="project"
+      className="project bg-cards"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="soap-soap poppins-semi-bold-white-20px padding project-title">
         {title}
       </div>
-      <div className="group-9 padding">
+      {/* <div className="group-9 padding">
         {techStack.slice(1).map((stack) => (
           <div
             key={stack}
@@ -23,7 +23,7 @@ function MyPortfolio({ project, displayDitail }) {
             {stack}
           </div>
         ))}
-      </div>
+      </div> */}
       <div className="overlap-group-2">
         <button
           onClick={displayDitail}
