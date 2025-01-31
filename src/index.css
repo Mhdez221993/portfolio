@@ -31,6 +31,8 @@ html {
   --font-size-xxxl: 88px;
   --font-family-poppins: "Poppins";
   --font-family-roboto: "Roboto";
+  --gradientTop: #f9fafb;
+  --gradientBottom: #d2d6db;
 }
 
 body {
