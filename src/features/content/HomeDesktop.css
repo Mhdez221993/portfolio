@@ -470,7 +470,7 @@
   display: grid;
   grid-template-columns: 1fr;
   margin-bottom: 50px;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
 }
 
