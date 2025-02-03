@@ -42,6 +42,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: linear-gradient(#f9fafb, #edf0f3); */
 }
 
 code {
