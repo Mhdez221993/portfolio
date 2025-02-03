@@ -78,7 +78,7 @@ const projects = [
     backgroundImage: rocket2,
     images: [space1, space2, space3, space4],
     source: "https://github.com/Mhdez221993/spacex_travelers_hub",
-    live: "https://magical-taffy-2adbc3.netlify.app",
+    live: "https://mhdez221993.github.io/spacex_travelers_hub/",
     description:
       "The Space Travelers' Hub consists of Rockets, Missions, and the My Profile section. Rockets /Dragons The Rockets section displays a list of all available SpaceX rockets. Users can book each rocket by clicking the reservation button or canceling the previously made booking. Missions The Missions section displays a list of current missions along with their brief description and participation status. My Profile The My Profile section displays all reserved rockets and space missions.",
   },
